@@ -1,0 +1,28 @@
+<footer class="site-footer">
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js" integrity="sha384-jmxIlussZWB7qCuB+PgKG1uLjjxbVVIayPJwi6cG6Zb4YKq0JIw+OMnkkEC7kYCq" crossorigin="anonymous"></script> -->
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/contrib/auto-render.min.js" integrity="sha256-HkMrKMLKQk4t1R2ofMAcLz72fWM2sshnx6215U+LgU0=" crossorigin="anonymous"></script>
+  <!--<script>
+  $("script[type='math/tex']").replaceWith(
+   function(){
+     var tex = $(this).text();
+     return "<span class=\"inline-equation\">" +
+            katex.renderToString(tex) +
+            "</span>";
+   });
+
+   $("script[type='math/tex; mode=display']").replaceWith(
+     function(){
+       var tex = $(this).text();
+       return "<div class=\"equation\">" +
+              katex.renderToString("\\displaystyle "+tex) +
+              "</div>";
+   });
+  </script> -->
+  <div class="container"><center>
+    <small class="block">&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. All rights reserved.</small>
+    <small class="block">Made with <i class="fa fa-heart" aria-hidden="true" style="color:#DD3D36"></i> using <a href="http://jekyllrb.com/">Jekyll</a>. Typeface by <a href="https://fonts.google.com/specimen/Inconsolata">Inconsolata</a> and <a href="http://fontawesome.io/">Font Awesome</a>.</small>
+    <small><a href="https://github.com/heiswayi/thinkspace">Thinkspace</a> theme by <a href="http://heiswayi.github.io/">Heiswayi Nrird</a>.</small></center>
+    <a href="https://info.flagcounter.com/lcw2"><center><img src="https://s05.flagcounter.com/count2/lcw2/bg_FFFFFF/txt_000000/border_CCCCCC/columns_8/maxflags_12/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+  </div>
+</footer>
