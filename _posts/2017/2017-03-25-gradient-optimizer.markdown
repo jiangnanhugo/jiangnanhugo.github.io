@@ -15,4 +15,11 @@ $$\Delta w(t) = v(t)  = \alpha v(t-1) -\varepsilon \frac{\partial E}{\partial w}
 
 The weight change is equal to the current velocity.
 
-The weight change ca be expressed in terms of the previous weight change and the current gradient.
+The weight change can be expressed in terms of the previous weight change and the current gradient.
+
+
+#### Practical Approximations to Newton's methods
+- Diagonal approximation
+- Limited-memory quasi-Newton (L-BFGS)
+- Barzilai-Borwein approximation
+- Hessian-free method

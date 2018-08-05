@@ -28,13 +28,13 @@ $$\|w\|\to \max\{w_l -w\}$$
 
 1. replace **maximum with new variable**, constrained to upper-bound max:
 
-$$\|w\| \to \arg\min_{w\in R_l, r\in R}{r_l}, r\ge \max{w_l-w}$$
+$$\|w\| \to \arg\min_{w\in R_l, r\in R}{r_i}, r\ge \max{w_i-w}$$
 
-where $$r=\|w\|$$
+where the residual variable $$r=\|w\|$$
 
 2.  replace individual constraint with **constraint for each element** of max:
 
-$$\|w\| \to \arg\min_{w\in R_l, r\in R}{r_l}$$
+$$\|w\| \to \arg\min_{w\in R_l, r\in R}{r_i}$$
 
 $$\text{s.t.}\prod r\ge w $$
 
@@ -42,4 +42,5 @@ $$ r\ge -w$$
 
 
 #### References
-[Mini Course 3 - Stochastic Convex Optimization Methods In Machine Learning](http://video.impa.br/index.php?page=mini-courses-svan-2016)
+- [Mini Course 3 - Stochastic Convex Optimization Methods In Machine Learning](http://video.impa.br/index.php?page=mini-courses-svan-2016)
+- [Is minimizing squared error equivalent to minimizing absolute error? Why squared error is more popular than the latter?](https://stats.stackexchange.com/questions/147001/is-minimizing-squared-error-equivalent-to-minimizing-absolute-error-why-squared)
