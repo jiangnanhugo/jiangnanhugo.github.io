@@ -10,10 +10,13 @@ date: "2018-11-19 17:51"
 3. $$\nabla f(w^k)$$ is gradient.
 
 The Momentum-based gradient descent is:
+
 $$
-z_{k+1}​=\beta z_k+\nabla f(w^k) \\
-w_{​k+1}=w_{​k}-\alpha z_{​k+1}
-$$
+\begin{aligned}
+z^{k+1}&= \beta z^k +\nabla f(w^k)  \\
+w^{k+1}&=w^k - \alpha z^{k+1}
+\end{aligned}$$
+
 
 1. $$\beta=0$$, we recover the gradient descent.
 2. $$\beta=0.99$$, this appears to be the boost we need.

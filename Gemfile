@@ -1,6 +1,6 @@
 # If you have OpenSSL installed, we recommend updating
 # the following line to use "https"
-source 'https://gems.ruby-china.org/'
+source 'https://rubygems.org/'
 
 group :development do
   gem 'html-proofer', '3.9.1'
