@@ -10,8 +10,8 @@ comments: true
 Given a list of word vectors: $$x_1,\cdots,x_{t-1},x_t,x_{t+1},\cdots,x_T $$
 
 $$\begin{array}{l}
-\hat y_t=\text{softmax}(W h_t) \\
-\hat p(x_{t+1}=v_j|x_t,\cdots,x_1) =\hat{y}_{t,j}
+\hat y_t &=\text{softmax}(W h_t) \\
+\hat p(x_{t+1}=v_j|x_t,\cdots,x_1) &=\hat{y}_{t,j}
 \end{array}
 $$
 
