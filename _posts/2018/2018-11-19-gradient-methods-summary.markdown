@@ -11,7 +11,7 @@ date: "2018-11-19 17:51"
 
 The Momentum-based gradient descent is:
 
-$$\end{array}{l}
+$$\begin{array}{l}
 z^{k+1}&= \beta z^k +\nabla f(w^k)  \\
 w^{k+1}&=w^k - \alpha z^{k+1}
 \end{array}
@@ -24,3 +24,4 @@ $$
 
 ### References
 1. [Why Momentum Really Works](https://distill.pub/2017/momentum/)
+
