@@ -11,11 +11,10 @@ date: "2018-11-19 17:51"
 
 The Momentum-based gradient descent is:
 
-$$
-\begin{aligned}
+$$\end{array}{l}
 z^{k+1}&= \beta z^k +\nabla f(w^k)  \\
 w^{k+1}&=w^k - \alpha z^{k+1}
-\end{aligned}
+\end{array}
 $$
 
 
