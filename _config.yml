@@ -53,9 +53,11 @@ twitter_site: "@jiangnan_hugo"
 
 plugins:
   - bourbon
-  - jekyll-paginate
+  # - jekyll-paginate
 
-
+gems:
+  - jekyll-paginate-v2
+  
 # navbar pages
 navbar:
   - slug : about

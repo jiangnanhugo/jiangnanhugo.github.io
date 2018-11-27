@@ -4,9 +4,10 @@ source 'https://rubygems.org/'
 
 group :development do
   gem 'html-proofer', '3.9.1'
-  gem 'jekyll', '~> 3.8.3'
+  gem 'jekyll', '~> 3.8.5'
   gem "kramdown", "~> 1.17.0"
-  gem 'jekyll-paginate', '~> 1.1.0'
+  gem 'jekyll-paginate-v2'
+  gem 'jekyll-feed'
   gem "bourbon", '~> 4.2.7'
   gem "bitters", '~> 1.1.0'
   gem 'pygments.rb', '~> 1.2.1'
