@@ -5,13 +5,14 @@ date: "2018-11-19 17:51"
 ---
 
 ### Momentum
-1. $$m_k$$ is noted as momentum
+1. $$m_k$$ is noted as momentum, also call velocity.
 2. $$w$$ is the parameters,
 3. $$\nabla f(w_k)$$ is gradient.
 
 The Momentum-based gradient descent is:
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 m_k&= \beta m_{k-1} +\nabla f(w_k)  \\
 w_k&=w_{k-1} - \alpha m_k
 \end{aligned}
@@ -23,7 +24,8 @@ $$
 
 ### Adam
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 m_k &= \beta_1 m_{k-1} + (1-\beta_1)\nabla f(w_k)  \\
 v_k &= \beta_2 v_{k-1} + (1-\beta_2)(\nabla f(w_k))^2  \\
 \hat m_k &= \frac{m_k}{1-\beta_1^t} \\
