@@ -30,16 +30,19 @@ GR()
 histogram(randn(10000))
 ```
 
-####. Solution 2
+#### Solution 2
+
 do the following instruction step by step.
 
 1. re-install `matplotlib`
+
 ```bash
    conda uninstall matplotlib
    pip install -U matplotlib    
 ```
 
 2. test your matplotlib will work in python.
+
 ```python
    import matplotlib.plot as plt
    import numpy as np
@@ -49,14 +52,15 @@ do the following instruction step by step.
 ```
 
 3. config your python path, then rebuild the `PyCall` module.
+
 ```julia
 using Pkg
 ENV["PYTHON"]="D://miniconda//python.exe" # "path to your python"
 Pkg.build("PyCall")
-
 ```
 
 4. verify you can use `PyCall` to call `Matplotlib` in julia.
+
 ```julia
 using Pycall
 @pyimport numpy as np
@@ -67,6 +71,7 @@ plt.show()
 ```
 
 5. reinstall `Plots` and `PyPlot`.
+
 ```julia
 using Pkg
 Pkg.rm("Plots")
@@ -76,6 +81,7 @@ Pkg.add("PyPlot")
 ```
 
 6. finally check that you can see the `gui`.
+
 ```julia
 using PyPlot
 # use x = linspace(0,2*pi,1000) in Julia 0.6
