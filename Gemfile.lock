@@ -60,7 +60,7 @@ GEM
       sass (~> 3.4)
     jekyll-watch (2.1.2)
       listen (~> 3.0)
-    katex (0.4.3)
+    katex (0.5.0)
       execjs (~> 2.7)
     kramdown (1.17.0)
     libv8 (3.16.14.19)
@@ -115,7 +115,7 @@ DEPENDENCIES
   jekyll (~> 3.8.5)
   jekyll-feed
   jekyll-paginate-v2
-  katex (~> 0.4.3)
+  katex (~> 0.5.0)
   kramdown (~> 1.17.0)
   pygments.rb (~> 1.2.1)
   therubyracer (~> 0.12.3)
