@@ -42,6 +42,7 @@ h6 {
 
 p {
   margin: 0 0 $small-spacing;
+  font-size: $base-font-size;
 
   &.lead {
     font-size: rem(22);
@@ -91,8 +92,8 @@ code {
   background: none;
   border-radius: 0;
   border: none;
-  font-family: "SFMono-Regular",Menlo,Consolas,"Inconsolata",monospace;
-  font-size: 1em;
+  font-family: $monospace-font-family;
+  font-size: 11pt;
   margin: 0;
   padding: 0 5px;
   background-color: lighten($light-gray-color, 13%);
@@ -126,6 +127,7 @@ em {
 ul,
 ol,
 dl {
+    font-size: $base-font-size;
     margin-top: 0;
     margin-left: 1.2em;
     margin-bottom: 1rem;
