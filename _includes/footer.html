@@ -17,6 +17,15 @@
       renderMathInElement(document.body);
     });
   </script> -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          [{left: "$$", right: "$$", display: true},
+          {left: "\\(", right: "\\)", display: false},
+          {left: "\\[", right: "\\]", display: true}
+          ]});
+    });
+  </script>
   <!-- <script>
   $("script[type='math/tex']").replaceWith(
    function(){
