@@ -25,13 +25,13 @@ $$
 ### Adam
 
 $$
-\begin{aligned}
-m_k &= \beta_1 m_{k-1} + (1-\beta_1)\nabla f(w_k)  \\
-v_k &= \beta_2 v_{k-1} + (1-\beta_2)(\nabla f(w_k))^2  \\
-\hat m_k &= \frac{m_k}{1-\beta_1^t} \\
-\hat v_k &= \frac{v_k}{1-\beta_2^t} \\
+\\begin{aligned}
+m_k &= \beta_1 m_{k-1} + (1-\beta_1)\nabla f(w_k)  \\\\
+v_k &= \beta_2 v_{k-1} + (1-\beta_2)(\nabla f(w_k))^2  \\\\
+\hat m_k &= \frac{m_k}{1-\beta_1^t} \\\\
+\hat v_k &= \frac{v_k}{1-\beta_2^t} \\\\
 w_k &=w_{k-1} - \alpha \frac{\hat m_k}{\sqrt{\hat v_k} +\varepsilon}
-\end{aligned}
+\\end{aligned}
 $$
 
 
