@@ -43,7 +43,7 @@ used form calculating `theano.tensor.nnet.h_softmax`;
 ```python
 def h_softmax(x, batch_size, n_outputs, n_classes, n_outputs_per_class,
               W1, b1, W2, b2, target=None):
-   "Two-level hierarchical softmax."
+    # "Two-level hierarchical softmax."
     # First softmax that computes the probabilities of belonging to each class
     class_probs = theano.tensor.nnet.softmax(tensor.dot(x, W1) + b1)
     if target is None:  # Computes the probabilites of all the outputs
@@ -67,8 +67,10 @@ def h_softmax(x, batch_size, n_outputs, n_classes, n_outputs_per_class,
 
         # Second softmax that computes the output probabilities
         activations = sparse_block_dot(
-            W2.dimshuffle('x', 0, 1, 2), x.dimshuffle(0, 'x', 1),
-            tensor.zeros((batch_size, 1), dtype='int32'), b2,
+            W2.dimshuffle('x', 0, 1, 2), 
+            x.dimshuffle(0, 'x', 1),
+            tensor.zeros((batch_size, 1), dtype='int32'), 
+            b2,
             target_classes.dimshuffle(0, 'x'))
 
         output_probs = theano.tensor.nnet.softmax(activations.dimshuffle(0, 2))
