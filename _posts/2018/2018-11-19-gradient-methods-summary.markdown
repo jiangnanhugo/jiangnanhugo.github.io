@@ -37,4 +37,3 @@ w_k &=w_{k-1} - \alpha \frac{\hat m_k}{\sqrt{\hat v_k} +\varepsilon}
 
 ### References
 1. [Why Momentum Really Works](https://distill.pub/2017/momentum/)
-
