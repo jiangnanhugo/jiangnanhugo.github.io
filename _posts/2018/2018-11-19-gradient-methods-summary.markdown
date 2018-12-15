@@ -24,7 +24,7 @@ w_k&=w_{k-1} - \alpha m_k
 
 ### Adam
 
-\]\begin{eqnarray}
+\[\begin{eqnarray}
 m_k &= \beta_1 m_{k-1} + (1-\beta_1)\nabla f(w_k)  \\\\
 v_k &= \beta_2 v_{k-1} + (1-\beta_2)(\nabla f(w_k))^2  \\\\
 \hat m_k &= \frac{m_k}{1-\beta_1^t} \\\\
