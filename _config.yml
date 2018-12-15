@@ -21,8 +21,6 @@ permalink   : /:year/:title/
 markdown    : kramdown
 kramdown:
   math_engine: mathjax
-  # math_engine_opts:
-  #   preview: false
 highlighter: rouge
 
 source: ./
@@ -54,7 +52,7 @@ twitter_site: "@jiangnan_hugo"
 plugins:
   - bourbon
   - jekyll-paginate-v2
-  
+
 # navbar pages
 navbar:
   - slug : about
