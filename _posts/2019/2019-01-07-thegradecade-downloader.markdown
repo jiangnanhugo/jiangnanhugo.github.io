@@ -45,8 +45,7 @@ def search_with_universityname(name):
     soup=BeautifulSoup(content,"html.parser")
     table=soup.find("table",{"class":"submission-table"})
     fw=codecs.open('result_'+name+'_phd.csv','w',encoding='utf-8')
-    # cw=csv.writer(fw)
-    #print table
+
     apps=[]
     for row in table.findAll("tr"):
         cell=row.findAll("td")
@@ -61,7 +60,7 @@ def search_with_universityname(name):
             if 'phd' in item[1]:
                 apps.append(item)
     applications=pd.DataFrame(apps)
-    applications.to_csv('apps_'+name+"_.csv")
+    applications.to_csv('apps_'+name+"_phd.csv")
     print('saving to apps_' + name + "_phd.csv")
     fw.close()
 
