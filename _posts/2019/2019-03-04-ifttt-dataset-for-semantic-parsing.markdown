@@ -19,4 +19,5 @@ dataset from [1] contains several arguments and dataset from [2] with only limit
 
 ### References
 [1] Confidence Modeling for Neural Semantic Parsing.
+
 [2] Latent Attention For If-Then Program Synthesis.
