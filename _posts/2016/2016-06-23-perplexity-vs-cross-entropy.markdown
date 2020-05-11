@@ -5,7 +5,7 @@ date: "2016-06-23 20:20"
 comments: true
 ---
 
-## Evaluating a Language Model: Perplexity
+## Perplexity: Evaluating a Language Model
 We have a serial of $$m$$ sentences:
 $$s_1,s_2,\cdots,s_m$$
 
@@ -21,11 +21,11 @@ $$PPL=2^{-l}$$
 
 $$l=\frac{1}{M}\sum_{i=1}^m{\log p(s_i)}$$
 
-and $M$ is the total number of words in the test data.
+and $$M$$ is the total number of words in the test data.
 
 ## Cross-Entropy
 
-Given words $$x_1,\cdots,x_t$$, a language model products the following word $$x_{t+1}$$ by modeling:
+Given words $$x_1,\cdots,x_t$$, a language model products the following word's probability $$x_{t+1}$$ by:
 
 $$P(x_{t+1}=v_j|x_t\cdots,x_1)=\hat y_j^t$$
 
@@ -37,9 +37,10 @@ $$\mathcal{L}^t(\theta)=CE(y^t,\hat y^t)=-\sum_{i=1}^{|V|}{y_i^t\log \hat y_i^t}
 
 where $$y^t$$ is the one-hot vector corresponding to the target word. This is a point-wise loss, and we sum the cross-entropy loss across all examples in a sequence, across all sequences in the dataset in order to evaluate model performance.
 
-## The relationship between cross-entropy and ppl
+## The relationship between Cross-Entropy and PPL
 
-$$PP^t=\frac{1}{P(x_{t+1}^{pred}=x_{t+1}|x_t\cdots,x_1)}=\frac{1}{\sum_{j=1}^V {y_j^t\cdot \hat y_j^t}}$$
+
+$$PPL^t=\frac{1}{P(x_{t+1}^{pred}=x_{t+1}|x_t\cdots,x_1)}=\frac{1}{\sum_{j=1}^V {y_j^t\cdot \hat y_j^t}}$$
 
 which is the inverse probability of the correct word, according to the model distribution $$P$$.
 
