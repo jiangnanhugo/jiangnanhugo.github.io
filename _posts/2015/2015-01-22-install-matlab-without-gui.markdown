@@ -6,15 +6,15 @@ comments: true
 ---
 
 
-- 1. download **matlab for Unix 2014** , your *license key file* is needed at first.
+- 1 download **matlab for Unix 2014** , your *license key file* is needed at first.
 
-- 2. mount the iso file
+- 2 mount the iso file
 
 ```bash
 mount -o loop,ro Mathworks.Matlab.R2014a.iso /media
 ```
 
-- 3. cover the `/media/java/jar` with your licensed jar.
+- 3 cover the `/media/java/jar` with your licensed jar.
 
 ```bash
 sudo cp Crack/install.jar /media/java/jar
@@ -28,14 +28,14 @@ mkdir matlab_source
 sudo cp /media -r matlab_source
 ```
 
-- 4. create the filepath to be installed.
+- 4 create the filepath to be installed.
 
 ```bash
 mkdir -p /opt/matlab/etc
 mkdir -p /opt/matlab/2014a
 ```
 
-- 5. install configure：copy `installer_input.txt, activate.ini,license.lic` files to `/opt/matlab/etc` directory,
+- 5 install configure：copy `installer_input.txt, activate.ini,license.lic` files to `/opt/matlab/etc` directory,
 
 ```bash
 sudo cp serial/license.lic /opt/matlab/etc
@@ -43,7 +43,7 @@ sudo cp activate.ini /opt/matlab/etc
 sudo cp installer_input.txt /opt/matlab/etc
 ```
 
-- 6. configure the `installer_input.txt` file
+- 6 configure the `installer_input.txt` file
 
 ```bash
 sudo vim /opt/matlab/etc/installer_input.txt //edit installer_input file
@@ -63,19 +63,19 @@ activateCommand=activateOffline //activation type: online or offline
 licenseFile=/opt/matlab/etc/license_405329_R2014a.lic //your license file location
 ```
 
-- 7. When configuration finished, run the `install` sctript.
+- 7 When configuration finished, run the `install` sctript.
 
 ```bash
 sudo ./install -inputFile /opt/matlab/etc/installer_input.txt
 ```
 
-- 8. After you finished，you need to move `crack/linux/libmwservices.so` to `/opt/matlab/2014a/bin/glnxa64/`. if not, you cannot use matlab,
+- 8 After you finished，you need to move `crack/linux/libmwservices.so` to `/opt/matlab/2014a/bin/glnxa64/`. if not, you cannot use matlab,
 
 ```bash
 sudo cp Linux/libmwservices.so /opt/matlab/2014a/bin/glnxa64/
 ```
 
-- 9.  configure your matlab path
+- 9 configure your matlab path
 
 ```bash
 vim /etc/profile
@@ -84,7 +84,7 @@ source /etc/profile
 echo $PATH
 ```
 
-- 10. setup shortkey for running matlab
+- 10 setup shortkey for running matlab
 
 ```bash
 alias matlab="matlab -nodesktop -nodisplay"
