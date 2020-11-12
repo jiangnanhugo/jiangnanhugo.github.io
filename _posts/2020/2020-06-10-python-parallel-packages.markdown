@@ -5,10 +5,10 @@ date: "2020-06-10 08:57"
 ---
 
 
-#### 1. multithreading
 
+#### 1. concurrent.futures
 
-#### 2. concurrent
+- run on multithread: ThreadPoolExecutor
+- run on multiprocess: ProcessPoolExecutor
 
-
-#### 3. ray
+#### 2. ray
