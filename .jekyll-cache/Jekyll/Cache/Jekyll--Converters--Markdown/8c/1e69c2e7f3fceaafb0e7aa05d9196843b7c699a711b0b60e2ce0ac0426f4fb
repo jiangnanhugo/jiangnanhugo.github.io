@@ -1,0 +1,34 @@
+I"�<h3 id="what-is-confidence-measures">What is “confidence measures”?</h3>
+<p>evaluate reliability of recognition results.</p>
+
+<h3 id="why-measure-confidence-or-reliability">Why measure confidence or reliability?</h3>
+<p>ambient noises, speaker variations, channel distortions and other mismatches.</p>
+
+<h3 id="major-methods-in-category">Major methods in category?</h3>
+<ol>
+  <li>combination of predictor features;
+    <ul>
+      <li>log-likelihoods,</li>
+      <li>word duration</li>
+      <li>word graph density</li>
+      <li></li>
+    </ul>
+  </li>
+  <li>posterior probability: estimate the probability of the sequence given the acoustic observations.</li>
+  <li>hypothesis testing: likelihood ratio = (word likelihood score) / (background model + competing model)</li>
+  <li>utterance verification.</li>
+</ol>
+
+<h3 id="specific-name">Specific Name</h3>
+<ul>
+  <li>
+    <h2 id="non-keyword-rejection-or-keyword-recognition-detect-if-the-input-speech-does-not-contain-any-of-the-words-in-the-recognizer-vocabulary-set"><em>non-keyword rejection</em> or <em>keyword recognition</em>: detect if the input speech does not contain any of the words in the recognizer vocabulary set.</h2>
+  </li>
+</ul>
+
+<h2 id="related-papers">Related Papers</h2>
+<ol>
+  <li>Out-Of-Vocabulary Detection and Confidence Measures for Speech Recognition Using Phone Models.</li>
+  <li>Confidence Estimation for Machine Translation</li>
+</ol>
+:ET

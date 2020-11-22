@@ -1,0 +1,86 @@
+I"�
+<p>It makes that short-term memory last for a long time.</p>
+
+<p><img src="http://deeplearning.net/tutorial/_images/lstm_memorycell.png" alt="LSTM Gate模型" /></p>
+
+<h4 id="1-three-types-of-gate">1. Three Types of Gate</h4>
+
+<ul>
+  <li><strong>Input Gate</strong>:
+Controls how much of the current input \(x_t\) and the previous output \(h_{t-1}\) will enter into the new cell.</li>
+</ul>
+
+\[i_t=\sigma(W^i x_t+U^i h_{t-1}+b^i)\]
+
+<ul>
+  <li><strong>Forget Gate</strong>:
+Decide whether to erase (set to zero) or keep individual components of the memory.</li>
+</ul>
+
+\[f_t=\sigma(W^f x_t+U^f h_{t-1}+b^f)\]
+
+<ul>
+  <li><strong>Cell Update</strong>:
+Transforms the input and previous state to be taken into account into the current state.</li>
+</ul>
+
+\[g_t=\phi(W^g x_t+U^g h_{t-1}+b^g)\]
+
+<ul>
+  <li><strong>Output Gate</strong>:
+Scales the output from the cell.</li>
+</ul>
+
+\[o_t=\sigma(W^o x_t+U^o h^{t-1}+b^o)\]
+
+<ul>
+  <li><strong>Internal State update</strong>:
+Computes the current timestep’s state using the gated previous state and the gated input.</li>
+</ul>
+
+\[s_t=g_t\cdot i_t+s_{t-1}\cdot f_t\]
+
+<ul>
+  <li><strong>Hidden Layer</strong>:
+Output of the LSTM scaled by a \(\tanh\) (squashed) transformations of the current state.</li>
+</ul>
+
+\[h_t=\phi(s_t)\cdot o_t\]
+
+<p>where “\(\cdot\)” denotes <strong>element-wise matrix multiplication</strong>, \(\phi(x)=\tanh(x),\sigma(x)=sigmoid(x)\)</p>
+
+\[\phi(x)=\frac{e^x-e^{-x}}{e^x+e^{-x}},\sigma(x)=\frac{1}{1+e^{-x}}\]
+
+<h4 id="2-paralleled-computing">2. Paralleled Computing</h4>
+
+<p>input gate, forget gate, cell update, output gate can be computed in parallel.</p>
+
+\[\begin{bmatrix} i^t\\ f^t\\g^t\\o^t \end{bmatrix} =\begin{bmatrix}\sigma\\ \sigma\\\phi\\\sigma\end{bmatrix}\times W\times[x^t,h^{t-1}]\]
+
+<h4 id="3-lstm-network-for-semantic-analysis">3. LSTM network for Semantic Analysis</h4>
+
+<p><img src="http://deeplearning.net/tutorial/_images/lstm.png" alt="LSTM network for semantic analysis" /></p>
+
+<ul>
+  <li>
+    <p><strong>Model Architecture</strong>:
+ LSTM layer –&gt; Averaging Pooling –&gt; Logistic Regession</p>
+  </li>
+  <li>
+    <p><strong>Input sequence</strong>: \(x_0,x_1,x_2,\cdots,x_n\)</p>
+  </li>
+  <li>
+    <p><strong>representation sequence</strong>: \(h_0,h_1,h_2,\cdots,h_n\)</p>
+  </li>
+</ul>
+
+<p>This representation sequence is then averaged over all timesteps resulting in representation h:</p>
+
+\[h=\sum\limits_i^n{h_i}\]
+
+<h3 id="references">References：</h3>
+<ul>
+  <li><a href="http://arxiv.org/pdf/1506.00019">A Critical Review of Recurrent Neural Networks for Sequence Learning</a></li>
+  <li><a href="http://deeplearning.net/tutorial/lstm.html">theano lstm</a></li>
+</ul>
+:ET

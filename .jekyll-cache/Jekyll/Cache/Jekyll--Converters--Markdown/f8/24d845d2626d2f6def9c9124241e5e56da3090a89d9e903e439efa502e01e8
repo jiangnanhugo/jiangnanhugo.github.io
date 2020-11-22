@@ -1,0 +1,39 @@
+I"W<p>To visualize the internal relation graph of theano variables.</p>
+
+<h5 id="installing">Installing</h5>
+
+<ol>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">conda install pydot graphviz</code></p>
+  </li>
+  <li>
+    <p>add graphviz path <code class="language-plaintext highlighter-rouge">D:\Anaconda\Library\bin\graphviz</code>to system <code class="language-plaintext highlighter-rouge">PATH</code> [windows version]</p>
+  </li>
+</ol>
+
+<p>or:</p>
+
+<ol>
+  <li>download installer from <code class="language-plaintext highlighter-rouge">http://www.graphviz.org/Download_windows.php</code>.</li>
+  <li><code class="language-plaintext highlighter-rouge">conda install pydot graphviz</code></li>
+  <li>add graphviz bin path  <code class="language-plaintext highlighter-rouge">C:\Program Files (x86)\Graphviz2.38\bin</code> to system PATH [windows version]</li>
+</ol>
+
+<h4 id="application">Application</h4>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">theano</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">theano.tensor</span> <span class="k">as</span> <span class="n">T</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">x</span><span class="o">=</span><span class="n">T</span><span class="p">.</span><span class="n">matrix</span><span class="p">(</span><span class="s">'x'</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">y</span><span class="o">=</span><span class="n">T</span><span class="p">.</span><span class="n">matrix</span><span class="p">(</span><span class="s">'y'</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">z</span><span class="o">=</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span><span class="o">+</span><span class="n">y</span><span class="o">**</span><span class="mi">3</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">f</span><span class="o">=</span><span class="n">theano</span><span class="p">.</span><span class="n">function</span><span class="p">([</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">],</span><span class="n">z</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">theano</span><span class="p">.</span><span class="n">printing</span><span class="p">.</span><span class="n">pydotprint</span><span class="p">(</span><span class="n">z</span><span class="p">,</span> <span class="n">outfile</span><span class="o">=</span><span class="s">"symbolic_graph_unopt.png"</span><span class="p">,</span>
+                                  <span class="n">var_with_name_simple</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">The</span> <span class="n">output</span> <span class="nb">file</span> <span class="ow">is</span> <span class="n">available</span> <span class="n">at</span> <span class="n">symbolic_graph_unopt</span><span class="p">.</span><span class="n">png</span>
+</code></pre></div></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> theano.printing.pydotprint<span class="o">(</span>f, <span class="nv">outfile</span><span class="o">=</span><span class="s2">"symbolic_graph_opt.png"</span>,
+                                  <span class="nv">var_with_name_simple</span><span class="o">=</span>True<span class="o">)</span>
+The output file is available at symbolic_graph_opt.png
+</code></pre></div></div>
+:ET

@@ -1,0 +1,96 @@
+I"�<ul>
+  <li>
+    <p>1 download <strong>matlab for Unix 2014</strong> , your <em>license key file</em> is needed at first.</p>
+  </li>
+  <li>
+    <p>2 mount the iso file</p>
+  </li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mount <span class="nt">-o</span> loop,ro Mathworks.Matlab.R2014a.iso /media
+</code></pre></div></div>
+
+<ul>
+  <li>3 cover the <code class="language-plaintext highlighter-rouge">/media/java/jar</code> with your licensed jar.</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo cp </span>Crack/install.jar /media/java/jar
+</code></pre></div></div>
+
+<p>Note: If you can’t edit the file in <code class="language-plaintext highlighter-rouge">/media</code>, you can mount the iso file to your working dir. like:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd</span> ~
+<span class="nb">mkdir </span>matlab_source
+<span class="nb">sudo cp</span> /media <span class="nt">-r</span> matlab_source
+</code></pre></div></div>
+
+<ul>
+  <li>4 create the filepath to be installed.</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">mkdir</span> <span class="nt">-p</span> /opt/matlab/etc
+<span class="nb">mkdir</span> <span class="nt">-p</span> /opt/matlab/2014a
+</code></pre></div></div>
+
+<ul>
+  <li>5 install configure：copy <code class="language-plaintext highlighter-rouge">installer_input.txt, activate.ini,license.lic</code> files to <code class="language-plaintext highlighter-rouge">/opt/matlab/etc</code> directory,</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo cp </span>serial/license.lic /opt/matlab/etc
+<span class="nb">sudo cp </span>activate.ini /opt/matlab/etc
+<span class="nb">sudo cp </span>installer_input.txt /opt/matlab/etc
+</code></pre></div></div>
+
+<ul>
+  <li>6 configure the <code class="language-plaintext highlighter-rouge">installer_input.txt</code> file</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>vim /opt/matlab/etc/installer_input.txt //edit installer_input file
+<span class="nv">destinationFolder</span><span class="o">=</span>/opt/matlab/2014a //where to <span class="nb">install </span>matlab
+<span class="nv">fileInstallationKey</span><span class="o">=</span>12345-67890-12345-67890 // your key
+<span class="nv">agreeToLicense</span><span class="o">=</span><span class="nb">yes</span> //agree to the license
+<span class="nv">outputFile</span><span class="o">=</span>/tmp/mathwork_install.log //installing log
+<span class="nv">mode</span><span class="o">=</span>silent // <span class="nb">install </span>directly without GUI
+<span class="nv">activationPropertiesFile</span><span class="o">=</span>/opt/matlab/etc/activate.ini // activation file
+<span class="nv">licensePath</span><span class="o">=</span>/opt/matlab/etc/license.lic // your license file
+</code></pre></div></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>vim /opt/matlab/etc/activate.ini //edit activate file
+<span class="nv">isSilent</span><span class="o">=</span><span class="nb">true</span> //open the silent <span class="nb">install </span>mode
+<span class="nv">activateCommand</span><span class="o">=</span>activateOffline //activation <span class="nb">type</span>: online or offline
+<span class="nv">licenseFile</span><span class="o">=</span>/opt/matlab/etc/license_405329_R2014a.lic //your license file location
+</code></pre></div></div>
+
+<ul>
+  <li>7 When configuration finished, run the <code class="language-plaintext highlighter-rouge">install</code> sctript.</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo</span> ./install <span class="nt">-inputFile</span> /opt/matlab/etc/installer_input.txt
+</code></pre></div></div>
+
+<ul>
+  <li>8 After you finished，you need to move <code class="language-plaintext highlighter-rouge">crack/linux/libmwservices.so</code> to <code class="language-plaintext highlighter-rouge">/opt/matlab/2014a/bin/glnxa64/</code>. if not, you cannot use matlab,</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo cp </span>Linux/libmwservices.so /opt/matlab/2014a/bin/glnxa64/
+</code></pre></div></div>
+
+<ul>
+  <li>9 configure your matlab path</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>vim /etc/profile
+<span class="nb">export </span><span class="nv">PATH</span><span class="o">=</span>/opt/matlab/2014a/bin:<span class="nv">$PATH</span>
+<span class="nb">source</span> /etc/profile
+<span class="nb">echo</span> <span class="nv">$PATH</span>
+</code></pre></div></div>
+
+<ul>
+  <li>10 setup shortkey for running matlab</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">alias </span><span class="nv">matlab</span><span class="o">=</span><span class="s2">"matlab -nodesktop -nodisplay"</span>
+</code></pre></div></div>
+
+<p>Note: you have to preinstall <strong>openjdk</strong> or <strong>oracle-jdk</strong> before.</p>
+:ET

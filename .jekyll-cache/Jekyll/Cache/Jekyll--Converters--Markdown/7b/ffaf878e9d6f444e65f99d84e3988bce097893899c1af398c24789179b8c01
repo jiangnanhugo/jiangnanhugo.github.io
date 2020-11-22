@@ -1,0 +1,9 @@
+I"Æ<h4 id="1-concurrentfutures">1. concurrent.futures</h4>
+
+<ul>
+  <li>run on multithread: ThreadPoolExecutor</li>
+  <li>run on multiprocess: ProcessPoolExecutor</li>
+</ul>
+
+<h4 id="2-ray">2. ray</h4>
+:ET

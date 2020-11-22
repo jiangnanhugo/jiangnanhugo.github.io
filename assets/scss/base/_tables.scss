@@ -1,25 +1,29 @@
 table {
   border-collapse: collapse;
-  font-feature-settings: "kern", "liga", "tnum";
-  margin: $small-spacing 0;
+  margin: var(--spacing) 0;
   table-layout: fixed;
+  text-align: left;
   width: 100%;
 }
 
+thead {
+  line-height: var(--line-height--heading);
+  vertical-align: bottom;
+}
+
+tbody {
+  vertical-align: top;
+}
+
+tr {
+  border-bottom: var(--border);
+}
+
 th {
-  border-bottom: 1px solid shade($base-border-color, 25%);
   font-weight: 600;
-  padding: $small-spacing 0;
-  text-align: left;
 }
 
+th,
 td {
-  border-bottom: $base-border;
-  padding: $small-spacing 0;
-}
-
-tr,
-td,
-th {
-  vertical-align: middle;
+  padding: var(--spacing--small) var(--spacing--small) var(--spacing--small) 0;
 }

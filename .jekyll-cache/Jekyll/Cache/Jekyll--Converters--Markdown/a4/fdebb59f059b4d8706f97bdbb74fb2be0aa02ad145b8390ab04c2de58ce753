@@ -1,0 +1,44 @@
+I"�	<p>在ubuntu上面安装了GPU版本的tensorflow后，很容易碰到 <code class="language-plaintext highlighter-rouge">zombie thread</code> 的问题，无法正常关闭tensorflow的线程，用 <code class="language-plaintext highlighter-rouge">ps aux|grep python</code> 可以看到:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python <span class="o">[</span>defunct]
+</code></pre></div></div>
+<p>表明这个python 的程序已经成为了<code class="language-plaintext highlighter-rouge">zombie</code>了，如果要杀死该进程，必须要kill 其parent 的进程。</p>
+
+<p>然而，不信的是我们发现 <code class="language-plaintext highlighter-rouge">PPID=1</code> ， 这个是系统默认的INIT进程，是不能kill的，所以除了手动重启没有什么好的解决方法。</p>
+
+<h3 id="solution">Solution</h3>
+<p>然而，这个问题主要是nvidia的驱动没写好，有人发现最新的nvidia 已经修复了该问题，所以我们只需要更新<code class="language-plaintext highlighter-rouge">nvidia driver</code>就好了。</p>
+<ol>
+  <li>首先我们可以考虑删除原先安装的nvidia 驱动（此步非必需）</li>
+</ol>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt-get uninstall <span class="nt">--purge</span> nvidia-<span class="k">*</span>
+</code></pre></div></div>
+
+<ol>
+  <li>为了安装最新版的驱动，我们需要添加源：</li>
+</ol>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>add-apt-repository ppa:graphics-drivers/ppa
+<span class="nb">sudo </span>apt-get update
+<span class="nb">sudo </span>apt-get <span class="nb">install </span>nvidia-361
+</code></pre></div></div>
+
+<ol>
+  <li>更新完驱动要重启</li>
+</ol>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>reboot
+</code></pre></div></div>
+
+<ol>
+  <li>查看nvidia设备是否已经安装好了最新的驱动。</li>
+</ol>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nvidia-smi
+<span class="c"># NVIDIA-SMI 361.45     Driver Version: 361.45.11</span>
+</code></pre></div></div>
+
+<ol>
+  <li>然后tensorflow就可以正常使用了~</li>
+</ol>
+:ET

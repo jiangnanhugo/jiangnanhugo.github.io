@@ -1,0 +1,198 @@
+I"�P<p>If you want to clean the texts with markdown grammar, you can follow through the content.</p>
+
+<h4 id="1-related-regular-expression-patterns">1. Related Regular Expression Patterns</h4>
+
+<p>Following lists the regular expression syntax that is available in Python.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Pattern</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>^</td>
+      <td>match beginning of the line.</td>
+    </tr>
+    <tr>
+      <td>$</td>
+      <td>match end of line.</td>
+    </tr>
+    <tr>
+      <td>.</td>
+      <td>match any single character except ‘\n’.</td>
+    </tr>
+    <tr>
+      <td>[…]</td>
+      <td>match any single character in brackets.</td>
+    </tr>
+    <tr>
+      <td>re*</td>
+      <td>match 0 or more occurrences of preceding expression</td>
+    </tr>
+    <tr>
+      <td>re+</td>
+      <td>match 1 or more occurrences of preceding expression</td>
+    </tr>
+    <tr>
+      <td>re?</td>
+      <td>match 0 or 1 occurrence of preceding expression.</td>
+    </tr>
+    <tr>
+      <td>re{n}</td>
+      <td>match exactly n number of occurrences of preceding expression.</td>
+    </tr>
+    <tr>
+      <td>\1…\9</td>
+      <td>match n-th grouped sub-expression.</td>
+    </tr>
+    <tr>
+      <td>(re)</td>
+      <td>Groups regular expressions and remembers matched text.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="2-parse-markdown-grammar">2. Parse Markdown Grammar</h4>
+<p>Here are related regular expressions for parsing markdown, which are from <a href="https://github.com/Python-Markdown/markdown/blob/master/markdown/inlinepatterns.py">inlinepatterns.py</a>.</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># \&lt;
+</span><span class="n">ESCAPE_RE</span> <span class="o">=</span> <span class="s">r'\\(.)'</span>
+<span class="c1"># *emphasis*
+</span><span class="n">EMPHASIS_RE</span> <span class="o">=</span> <span class="s">r'(\*)([^\*]+)\2'</span>
+<span class="c1"># **strong**
+</span><span class="n">STRONG_RE</span> <span class="o">=</span> <span class="s">r'(\*{2}|_{2})(.+?)\2'</span>
+<span class="c1"># ***strongem*** or ***em*strong**
+</span><span class="n">EM_STRONG_RE</span> <span class="o">=</span> <span class="s">r'(\*|_)\2{2}(.+?)\2(.*?)\2{2}'</span>
+<span class="c1"># ***strong**em*
+</span><span class="n">STRONG_EM_RE</span> <span class="o">=</span> <span class="s">r'(\*|_)\2{2}(.+?)\2{2}(.*?)\2'</span>
+<span class="c1"># _smart_emphasis_
+</span><span class="n">SMART_EMPHASIS_RE</span> <span class="o">=</span> <span class="s">r'(?&lt;!\w)(_)(?!_)(.+?)(?&lt;!_)\2(?!\w)'</span>
+<span class="c1"># _emphasis_
+</span><span class="n">EMPHASIS_2_RE</span> <span class="o">=</span> <span class="s">r'(_)(.+?)\2'</span>
+<span class="c1"># [text](url) or [text](&lt;url&gt;) or [text](url "title")
+</span><span class="n">LINK_RE</span> <span class="o">=</span> <span class="n">NOIMG</span> <span class="o">+</span> <span class="n">BRK</span> <span class="o">+</span> \
+    <span class="s">r'''\(\s*(&lt;.*?&gt;|((?:(?:\(.*?\))|[^\(\)]))*?)\s*((['"])(.*?)\12\s*)?\)'''</span>
+<span class="c1"># ![alttxt](http://x.com/) or ![alttxt](&lt;http://x.com/&gt;)
+</span><span class="n">IMAGE_LINK_RE</span> <span class="o">=</span> <span class="s">r'\!'</span> <span class="o">+</span> <span class="n">BRK</span> <span class="o">+</span> <span class="s">r'\s*\(\s*(&lt;.*?&gt;|([^"\)\s]+\s*"[^"]*"|[^\)\s]*))\s*\)'</span>
+<span class="c1"># [Google][3]
+</span><span class="n">REFERENCE_RE</span> <span class="o">=</span> <span class="n">NOIMG</span> <span class="o">+</span> <span class="n">BRK</span> <span class="o">+</span> <span class="s">r'\s?\[([^\]]*)\]'</span>
+<span class="c1"># [Google]
+</span><span class="n">SHORT_REF_RE</span> <span class="o">=</span> <span class="n">NOIMG</span> <span class="o">+</span> <span class="s">r'\[([^\]]+)\]'</span>
+</code></pre></div></div>
+
+<h4 id="3-remove-markdown-token-in-reddit">3. Remove Markdown Token in Reddit</h4>
+<p>Here is one example for cleaning texts on reddit with markdown grammer, which also contains emotions. The pair <code class="language-plaintext highlighter-rouge">xxx_re, xxx_sub</code> is used for identify the <code class="language-plaintext highlighter-rouge">xxx</code> pattern and then convert it into simple form.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># The actual regular expressions for patterns
+# *emphasis*
+</span><span class="n">EMPHASIS_RE</span> <span class="o">=</span> <span class="s">r'([_\*])([^\*]+)\1'</span>
+<span class="n">EMPHASIS_SUB</span> <span class="o">=</span> <span class="s">r'\2'</span>
+<span class="c1"># **strong**
+</span><span class="n">STRONG_RE</span> <span class="o">=</span> <span class="s">r'(\*{2}|_{2}|\~{2 })(.+?)\1'</span>
+<span class="n">STRONG_SUB</span> <span class="o">=</span> <span class="s">r'\2'</span>
+<span class="c1"># [text](url) or [text](&lt;url&gt;) or [text](url "title")
+</span><span class="n">LINK_RE</span><span class="o">=</span><span class="s">r'(?&lt;!\\)\[(?P&lt;link&gt;.+?)\]\((?P&lt;url&gt;.+?)\)'</span>
+<span class="n">LINK_SUB</span><span class="o">=</span><span class="s">r'\1'</span>
+<span class="c1"># ![alltext](http://x.com) or ![alttext](&lt;http://x.com/&gt;)
+</span><span class="n">IMAGE_LINK_RE</span><span class="o">=</span><span class="s">r'\!(?&lt;!\\)\[(?P&lt;link&gt;.+?)\]\((?P&lt;url&gt;.+?)\)'</span>
+<span class="n">IMAGE_LINK_SUB</span><span class="o">=</span><span class="s">r'\1'</span>
+<span class="c1"># &lt;me@example.com&gt;
+</span><span class="n">AUTOMAIL_RE</span><span class="o">=</span><span class="s">r'&lt;([^&gt; \!]*@[^&gt; ]*)&gt;'</span>
+<span class="n">AUTOMAIL_SUB</span><span class="o">=</span><span class="s">' email '</span>
+<span class="n">URL_RE</span><span class="o">=</span><span class="s">r"((?:[Ff]|[Hh][Tt])[Tt][PpDIGITS=][Ss]?://[^&gt;]*)"</span>
+<span class="n">URL_SUB</span><span class="o">=</span><span class="s">r' url '</span>
+<span class="n">DIGITS_RE</span><span class="o">=</span><span class="s">r"[+-]? *(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?"</span>
+<span class="n">DIGITD_SUB</span><span class="o">=</span><span class="s">' digits'</span>
+<span class="c1"># html tokens
+</span><span class="n">HTML_RE</span><span class="o">=</span><span class="s">r"(&amp;[\#a-zA-Z0-9]*;)"</span>
+<span class="n">HTML_SUB</span><span class="o">=</span><span class="s">r""</span>
+<span class="c1"># repeated word character, like: Nachoooooo  WOOOOOSHHHH
+</span><span class="n">REPEATED_RE</span><span class="o">=</span><span class="s">r"([\w\.])\1{2,}"</span>
+<span class="n">REPEATED_SUB</span><span class="o">=</span><span class="s">r"\1\1"</span>
+<span class="c1"># 'hahahahahah, hihihi, huehue, xixixi, abcdefgefgefg, hurrhurr, ballistics, ballballball, ballerina, ballerinanana'
+</span><span class="n">REPEAT_WORD_RE</span><span class="o">=</span><span class="s">r"\b[\w]*?([\w\. ]{2,}?)\1+[\w]*?\b"</span>
+<span class="n">REPEAT_WORD_SUB</span><span class="o">=</span><span class="s">r"\1"</span>
+<span class="c1"># duplicated punctuation
+</span><span class="n">REPEAT_PUNC_RE</span><span class="o">=</span> <span class="s">r'([\!\"\#\$\%\&amp;\'\(\)\*\+\-\/\:\;\&lt;\=\&gt;\?\@\[\\\\\]\_\`\{\|\}\~ ])\1{2,}'</span>
+<span class="n">REPEAT_PUNC_SUB</span><span class="o">=</span><span class="s">r"\1"</span>
+<span class="n">SPECIAL_PUNC_RE</span><span class="o">=</span><span class="s">r"([\.\,])\1{2,}"</span>
+<span class="n">SPECIAL_PUNC_SUB</span><span class="o">=</span><span class="s">r" \1_ "</span>
+<span class="n">SPECIAL_SPACE_RE</span><span class="o">=</span><span class="s">r"[/~*\.\' ]"</span>
+<span class="n">SPECIAL_SPACE_SUB</span><span class="o">=</span><span class="s">r" "</span>
+</code></pre></div></div>
+
+<p>We just transfer the emoticons into related words: happy, sad and etc.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># tweet emoticon
+# emoticon the emoticons come from https://en.wikipedia.org/wiki/List_of_emoticons
+# metacharacters: . ^ $ * + ? { } [ ] \ | ( )
+</span><span class="n">HAPPY_RE</span> <span class="o">=</span> <span class="s">r"(:-\)\)|:\)|:D|:o\)|:\]|:3|:c\)|:&gt;|=\]|8\)|=\)|:\}|:\^\)|:-\))"</span> <span class="c1"># :-) :) :D :o) :] :3 :c) :&gt; =] 8) =) :} :^) :-))
+</span><span class="n">HAPPY_SUB</span> <span class="o">=</span><span class="s">r'happy'</span>
+<span class="n">LAUGH_RE</span> <span class="o">=</span> <span class="s">r"(:-D|8-D|8D|x-D|xD|X-D|XD|=-D|=D|=-3|=3|B\^D)"</span> <span class="c1"># :-D 8-D 8D x-D xD X-D XD =-D =D =-3 =3 B^D
+</span><span class="n">LAUGH_SUB</span><span class="o">=</span><span class="s">'laugh'</span>
+<span class="n">SAD_RE</span> <span class="o">=</span> <span class="s">r"(&gt;:\[|:-\(|:\(|:-c|:c|:-&lt;|:&lt;|:-\[|:\[|:\{|;\()"</span> <span class="c1"># &gt;:[ :-( :( :-c :c :-&lt; :&lt; :-[ :[ :{
+</span><span class="n">SAD_SUB</span><span class="o">=</span><span class="s">r'sad'</span>
+<span class="n">ANGRY_RE</span> <span class="o">=</span> <span class="s">r"(:-\|\||:@|&gt;:\()"</span> <span class="c1"># :-|| :@ &gt;:(
+</span><span class="n">ANGRY_SUB</span><span class="o">=</span><span class="s">r'angry'</span>
+<span class="n">CRY_RE</span> <span class="o">=</span> <span class="s">r"(:'-\(|:'\()"</span> <span class="c1"># :'-( :'(
+</span><span class="n">CRY_SUB</span><span class="o">=</span><span class="s">r'cry'</span>
+<span class="n">HORROR_RE</span> <span class="o">=</span> <span class="s">r"(D:&lt;|D:|D8|D;|D=|DX|v\.v|D-':)"</span> <span class="c1"># D:&lt; D: D8 D; D= DX v.v D-':
+</span><span class="n">HORROR_SUB</span><span class="o">=</span><span class="s">r'horror'</span>
+<span class="n">SURPRISE_RE</span> <span class="o">=</span> <span class="s">r"(&gt;:O|:-O|:O|:-o|:o|8-0|O_O|o-o|O_o|o_O|o_o|O-O)"</span> <span class="c1"># &gt;:O :-O :O :-o :o 8-0 O_O o-o O_o o_O o_o O-O
+</span><span class="n">SURPRISE_SUB</span><span class="o">=</span><span class="s">r'surprise'</span>
+<span class="n">LOVE_RE</span> <span class="o">=</span> <span class="s">r"(:\*|:-\*|:\^\*|\( '}{' \))"</span> <span class="c1"># :* :-* :^* ( '}{' )
+</span><span class="n">LOVE_SUB</span><span class="o">=</span><span class="s">r'love'</span>
+<span class="n">WINK_RE</span> <span class="o">=</span> <span class="s">r"(;-\)|;\)|\*-\)|\*\)|;-\]|;\]|;D|;\^\)|:-,)"</span> <span class="c1"># ;-) ;) *-) *) ;-] ;] ;D ;^) :-,
+</span><span class="n">WINK_SUB</span><span class="o">=</span><span class="s">r'wink'</span>
+<span class="n">UNEASY_RE</span> <span class="o">=</span> <span class="s">r"(&gt;:\\|&gt;:/|:-/|:-\.|:/|:\\|=/|=\\|:L|=L|:S|&gt;\.&lt;)"</span> <span class="c1"># &gt;:\ &gt;:/ :-/ :-. :/ :\ =/ =\ :L =L :S &gt;.&lt;
+</span><span class="n">UNEASY_SUB</span><span class="o">=</span><span class="s">r'uneasy'</span>
+<span class="n">TROUBLE_RE</span> <span class="o">=</span> <span class="s">r"(\(&gt;_&lt;\)|\(&gt;_&lt;\)&gt;)"</span> <span class="c1"># (&gt;_&lt;) (&gt;_&lt;)&gt;
+</span><span class="n">TROUBLE_SUB</span><span class="o">=</span><span class="s">r'trouble'</span>
+</code></pre></div></div>
+
+<p>The last question is: How to use these ?</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># The pattern classes
+</span><span class="k">def</span> <span class="nf">build_inlinepatterns</span><span class="p">():</span>
+    <span class="n">inline_patterns</span> <span class="o">=</span> <span class="n">OrderedDict</span><span class="p">()</span>
+    <span class="n">inline_patterns</span><span class="p">[</span><span class="s">'strong'</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">STRONG_RE</span><span class="p">,</span> <span class="n">STRONG_SUB</span><span class="p">)</span>
+    <span class="n">inline_patterns</span><span class="p">[</span><span class="s">'emphasis'</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">EMPHASIS_RE</span><span class="p">,</span> <span class="n">EMPHASIS_SUB</span><span class="p">)</span>
+    <span class="n">inline_patterns</span><span class="p">[</span><span class="s">'automail'</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">AUTOMAIL_RE</span><span class="p">,</span> <span class="n">AUTOMAIL_SUB</span><span class="p">)</span>
+    <span class="n">inline_patterns</span><span class="p">[</span><span class="s">'image_link'</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">IMAGE_LINK_RE</span><span class="p">,</span> <span class="n">IMAGE_LINK_SUB</span><span class="p">)</span>
+    <span class="n">inline_patterns</span><span class="p">[</span><span class="s">'link'</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">LINK_RE</span><span class="p">,</span> <span class="n">LINK_SUB</span><span class="p">)</span>
+    <span class="n">inline_patterns</span><span class="p">[</span><span class="s">'url'</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">URL_RE</span><span class="p">,</span> <span class="n">URL_SUB</span><span class="p">)</span>
+    <span class="n">inline_patterns</span><span class="p">[</span><span class="s">'happy'</span><span class="p">]</span><span class="o">=</span><span class="p">(</span><span class="n">HAPPY_RE</span><span class="p">,</span><span class="n">HAPPY_SUB</span><span class="p">)</span>
+    <span class="n">inline_patterns</span><span class="p">[</span><span class="s">'laugh'</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">LAUGH_RE</span><span class="p">,</span> <span class="n">LAUGH_SUB</span><span class="p">)</span>
+    <span class="n">inline_patterns</span><span class="p">[</span><span class="s">'angry'</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">ANGRY_RE</span><span class="p">,</span> <span class="n">ANGRY_SUB</span><span class="p">)</span>
+    <span class="n">inline_patterns</span><span class="p">[</span><span class="s">'horror'</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">HORROR_RE</span><span class="p">,</span> <span class="n">HORROR_SUB</span><span class="p">)</span>
+    <span class="n">inline_patterns</span><span class="p">[</span><span class="s">'sad'</span><span class="p">]</span><span class="o">=</span><span class="p">(</span><span class="n">SAD_RE</span><span class="p">,</span><span class="n">SAD_SUB</span><span class="p">)</span>
+    <span class="n">inline_patterns</span><span class="p">[</span><span class="s">'cry'</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">CRY_RE</span><span class="p">,</span> <span class="n">CRY_SUB</span><span class="p">)</span>
+    <span class="n">inline_patterns</span><span class="p">[</span><span class="s">'surprise'</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">SURPRISE_RE</span><span class="p">,</span> <span class="n">SURPRISE_SUB</span><span class="p">)</span>
+    <span class="n">inline_patterns</span><span class="p">[</span><span class="s">'love'</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">LOVE_RE</span><span class="p">,</span> <span class="n">LOVE_SUB</span><span class="p">)</span>
+    <span class="n">inline_patterns</span><span class="p">[</span><span class="s">'wink'</span><span class="p">]</span><span class="o">=</span><span class="p">(</span><span class="n">WINK_RE</span><span class="p">,</span><span class="n">WINK_SUB</span><span class="p">)</span>
+    <span class="n">inline_patterns</span><span class="p">[</span><span class="s">'uneasy'</span><span class="p">]</span><span class="o">=</span><span class="p">(</span><span class="n">UNEASY_RE</span><span class="p">,</span><span class="n">UNEASY_SUB</span><span class="p">)</span>
+    <span class="n">inline_patterns</span><span class="p">[</span><span class="s">'trouble'</span><span class="p">]</span><span class="o">=</span><span class="p">(</span><span class="n">TROUBLE_RE</span><span class="p">,</span><span class="n">TROUBLE_SUB</span><span class="p">)</span>
+    <span class="n">inline_patterns</span><span class="p">[</span><span class="s">'rept_punc'</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">REPEAT_PUNC_RE</span><span class="p">,</span><span class="n">REPEAT_PUNC_SUB</span><span class="p">)</span>
+    <span class="n">inline_patterns</span><span class="p">[</span><span class="s">'rept_substr'</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">REPEATED_RE</span><span class="p">,</span> <span class="n">REPEATED_SUB</span><span class="p">)</span>
+    <span class="n">inline_patterns</span><span class="p">[</span><span class="s">'rept_sp_punc'</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">SPECIAL_PUNC_RE</span><span class="p">,</span> <span class="n">SPECIAL_PUNC_SUB</span><span class="p">)</span>
+    <span class="n">inline_patterns</span><span class="p">[</span><span class="s">'rept_word_punc'</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">REPEAT_WORD_RE</span><span class="p">,</span> <span class="n">REPEAT_WORD_SUB</span><span class="p">)</span>
+    <span class="n">inline_patterns</span><span class="p">[</span><span class="s">'digits'</span><span class="p">]</span><span class="o">=</span><span class="p">(</span><span class="n">DIGITS_RE</span><span class="p">,</span><span class="n">DIGITD_SUB</span><span class="p">)</span>
+    <span class="n">inline_patterns</span><span class="p">[</span><span class="s">'html'</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">HTML_RE</span><span class="p">,</span> <span class="n">HTML_SUB</span><span class="p">)</span>
+    <span class="n">inline_patterns</span><span class="p">[</span><span class="s">'sspace'</span><span class="p">]</span><span class="o">=</span><span class="p">(</span><span class="n">SPECIAL_SPACE_RE</span><span class="p">,</span><span class="n">SPECIAL_SPACE_SUB</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">inline_patterns</span>
+
+<span class="k">class</span> <span class="nc">Pattern</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">pattern</span><span class="o">=</span><span class="n">build_inlinepatterns</span><span class="p">()</span>
+    <span class="k">def</span> <span class="nf">sub_text</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">sent</span><span class="p">):</span>
+        <span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="bp">self</span><span class="p">.</span><span class="n">pattern</span><span class="p">:</span>
+            <span class="p">(</span><span class="n">patt</span><span class="p">,</span> <span class="n">sub</span><span class="p">)</span><span class="o">=</span><span class="bp">self</span><span class="p">.</span><span class="n">pattern</span><span class="p">[</span><span class="n">key</span><span class="p">]</span>
+            <span class="n">sent</span><span class="o">=</span><span class="n">re</span><span class="p">.</span><span class="n">sub</span><span class="p">(</span><span class="n">patt</span><span class="p">,</span><span class="n">sub</span><span class="p">,</span><span class="n">sent</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">sent</span><span class="p">.</span><span class="n">strip</span><span class="p">()</span>
+
+<span class="k">if</span> <span class="n">__name__</span><span class="o">==</span><span class="s">"__main__"</span><span class="p">:</span>
+    <span class="n">sents</span><span class="o">=</span><span class="s">'''~~_no/no~no.no_* '''</span>
+    <span class="k">print</span> <span class="n">Pattern</span><span class="p">().</span><span class="n">sub_text</span><span class="p">(</span><span class="n">sents</span><span class="p">)</span>
+</code></pre></div></div>
+:ET

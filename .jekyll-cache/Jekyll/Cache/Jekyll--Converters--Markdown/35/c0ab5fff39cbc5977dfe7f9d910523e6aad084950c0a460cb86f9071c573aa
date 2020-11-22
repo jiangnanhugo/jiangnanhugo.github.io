@@ -1,0 +1,52 @@
+I"ô<p>This part of codes is used for those want to apply quantization to Fasttext bin file, but want to dump much smaller bin file size. So I remove the output softmax part in the bin file, which is used for calculate the <code class="language-plaintext highlighter-rouge">similarity</code> task. The only function preserved <code class="language-plaintext highlighter-rouge">print-word-vectors</code> can print the quantized word vectors for the specified word. If you do not need quantization, this part of codes is not useful for you.</p>
+
+<ol>
+  <li>train word vectors using FastText.</li>
+</ol>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./fasttext supervised <span class="nt">-input</span> <span class="s2">"</span><span class="k">${</span><span class="nv">DATADIR</span><span class="k">}</span><span class="s2">/dbpedia.train"</span>
+                      <span class="nt">-output</span> <span class="s2">"</span><span class="k">${</span><span class="nv">RESULTDIR</span><span class="k">}</span><span class="s2">/dbpedia"</span> <span class="nt">-dim</span> 10
+                      <span class="nt">-lr</span> 0.1 <span class="nt">-wordNgrams</span> 2 <span class="nt">-minCount</span> 1
+                      <span class="nt">-bucket</span> 10000000 <span class="nt">-epoch</span> 5 <span class="nt">-thread</span> 4
+</code></pre></div></div>
+
+<ol>
+  <li>One issue of using Fasttext tools is that the dumped model bins is relatively large. So, it needs quantization.</li>
+</ol>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./fasttext quantize <span class="nt">-output</span> <span class="s2">"</span><span class="k">${</span><span class="nv">RESULTDIR</span><span class="k">}</span><span class="s2">/dbpedia"</span>
+                   <span class="nt">-input</span> <span class="s2">"</span><span class="k">${</span><span class="nv">DATADIR</span><span class="k">}</span><span class="s2">/dbpedia.train"</span>
+                   <span class="nt">-qnorm</span> <span class="nt">-retrain</span> <span class="nt">-epoch</span> 1
+                   <span class="nt">-cutoff</span> 100000
+</code></pre></div></div>
+
+<ol>
+  <li>
+    <p>After the model is quantized, the output prediction part of Fasttext is also dumped, which can be removed from the model bin.</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">cat ./change.sh</code> to get slimed bin dumpfile:</p>
+  </li>
+</ol>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./fasttext <span class="nt">-slim</span> <span class="nt">-output</span> <span class="s2">"</span><span class="k">${</span><span class="nv">RESULTDIR</span><span class="k">}</span><span class="s2">/dbpedia"</span>
+                 <span class="nt">-input</span> <span class="s2">"</span><span class="k">${</span><span class="nv">DATADIR</span><span class="k">}</span><span class="s2">/dbpedia.train"</span>
+</code></pre></div></div>
+
+<p>generated slimed dumpfile and remove <code class="language-plaintext highlighter-rouge">output_</code> and <code class="language-plaintext highlighter-rouge">qoutput_</code></p>
+
+<ol>
+  <li>
+    <p>it will generate <strong><code class="language-plaintext highlighter-rouge">fasttext_inference</code></strong>, and only function <strong><code class="language-plaintext highlighter-rouge">print-word-vectors</code></strong> can be called.</p>
+  </li>
+  <li>
+    <p>you can visit <strong>Codes</strong>: <a href="https://github.com/jiangnanhugo/fasttext_inference">Fasttext_Inference</a></p>
+  </li>
+</ol>
+
+<h3 id="references">References:</h3>
+<ul>
+  <li>FastText.zip: compressing text classification models</li>
+  <li>Product quantization for nearest neighbor search</li>
+</ul>
+:ET

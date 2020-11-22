@@ -1,0 +1,11 @@
+I"I<ol>
+  <li>traditional seq2seq model is trained by teacher-forcing, which is totally different during inference.</li>
+  <li>In order to optimize the test score (i.e., BLEU or word-error-rate), they propose to sampling $y_t$  during training to minimise the gap between training and testing.</li>
+  <li>the sampling function they propose is $\exp$ family that decreased with time, other forms of sampling strategy is not tried. (important!)</li>
+</ol>
+
+<h4 id="references">References</h4>
+<ul>
+  <li>Scheduled sampling for sequence prediction with recurrent neural networks.</li>
+</ul>
+:ET

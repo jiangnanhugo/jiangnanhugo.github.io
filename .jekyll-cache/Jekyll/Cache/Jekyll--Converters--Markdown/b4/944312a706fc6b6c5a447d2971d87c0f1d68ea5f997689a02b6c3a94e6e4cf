@@ -1,0 +1,12 @@
+I"”<h4 id="1-get-the-config-file">1. Get the config file</h4>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./buildconf
+</code></pre></div></div>
+
+<h4 id="2-config-with-openssl">2. Config with openssl</h4>
+<p>you need to install <code class="language-plaintext highlighter-rouge">openssl</code> first, then run the code below.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./configure <span class="nt">--with-ssl</span>
+make
+make <span class="nb">test</span> <span class="c">#(optional)</span>
+make <span class="nb">install</span>
+</code></pre></div></div>
+:ET
