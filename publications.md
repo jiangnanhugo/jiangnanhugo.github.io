@@ -4,6 +4,7 @@ title: Publications
 permalink: /pub/
 ---
 
+- Maosen Zhang, Nan Jiang, Lei Li, and Yexiang Xue. Language Generation via Combinatorial Constraint Satisfaction: A Tree Search Enhanced Monte-Carlo Approach. LMCA workshop at NeurIPS 2020.
 - Maosen Zhang, Nan Jiang, Lei Li, and Yexiang Xue. Language Generation via Combinatorial Constraint Satisfaction: A Tree Search Enhanced Monte-Carlo Approach. Finding in EMNLP 2020.
 - Libin Shi, Wenge Rong, Shijie Zhou, **Nan Jiang**, Zhang Xiong. A dual channel class hierarchy based recurrent language modeling. Neurocomputing 418 (2020): 291-299.
 - Zhen Xu, Nan Jiang and et. al. LSDSCC: A Large Scale Domain-Specific Conversational Corpusfor Response Generation with Diversity Oriented Evaluation Metrics. North American Chapterof the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT), 2018.
