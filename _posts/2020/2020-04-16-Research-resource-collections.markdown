@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "research resource collections"
+title: "Research resource collections"
 date: "2020-04-16 11:38"
 ---
 

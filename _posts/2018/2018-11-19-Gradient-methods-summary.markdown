@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "gradient methods summary"
+title: "Gradient methods summary"
 date: "2018-11-19 17:51"
 ---
 
@@ -21,6 +21,8 @@ w_k &=w_{k-1} - \alpha m_k
 
 1. $$\beta=0$$, we recover the gradient descent.
 2. $$\beta=0.99$$, this appears to be the boost we need.
+
+
 
 ### Adam
 
@@ -62,7 +64,11 @@ void Optimzer::Adam(float *w, float *g, float *m, float *v, int size) {
 ```
 
 
-
+### Practical Approximations to Newton’s methods
+1. Diagonal approximation
+2. Limited-memory quasi-Newton (L-BFGS)
+3. Barzilai-Borwein approximation
+4. Hessian-free method
 
 ### References
 1. [Why Momentum Really Works](https://distill.pub/2017/momentum/)

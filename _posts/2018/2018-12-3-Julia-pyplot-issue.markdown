@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "julia pyplot issue"
+title: "Julia pyplot issue"
 date: "2018-12-3 17:51"
 ---
 
@@ -8,9 +8,9 @@ date: "2018-12-3 17:51"
 1. runtime error.
   ```
 Runtime Error R6034
-Program; C:\Users\c\AppData\Local\Julia-0.6.0\bin\julia.exe 
-R6034 
-An application has made an attempt to load the C runtime library incorrectly. 
+Program; C:\Users\c\AppData\Local\Julia-0.6.0\bin\julia.exe
+R6034
+An application has made an attempt to load the C runtime library incorrectly.
 Please contact the application's support team for more information.```
   ```
 

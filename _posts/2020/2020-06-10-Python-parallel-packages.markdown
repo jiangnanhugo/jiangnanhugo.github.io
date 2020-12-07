@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "python parallel packages"
+title: "Python parallel packages"
 date: "2020-06-10 08:57"
 ---
 

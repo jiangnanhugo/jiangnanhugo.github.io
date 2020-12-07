@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "tensorflow python [defunct]"
+title: "Tensorflow python [defunct]"
 date: "2016-06-04 11:12"
 comments: true
 ---

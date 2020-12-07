@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "zsh update fail"
+title: "Zsh update fail"
 date: "2018-03-13 16:39"
 comments: true
 ---

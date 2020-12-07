@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "hierarchical clustering"
+title: "Hierarchical clustering"
 date: "2017-04-20 11:38"
 comments: true
 ---

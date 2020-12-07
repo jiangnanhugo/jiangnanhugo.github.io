@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "python C extensions"
+title: "Python C extensions"
 date: "2017-03-04 22:16"
 comments: true
 ---

@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Hash function"
+title: "Hash functions"
 date: "2020-05-10 21:45"
 ---
 
