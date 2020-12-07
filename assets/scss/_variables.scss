@@ -1,10 +1,10 @@
 // Typography
-$base-font-family: 'Palatino Linotype';
-$monospace-font-family: Monaco,"Monaco Regular", Menlo, Consolas, "Courier New", DotumChe, monospace;
+@import url('https://fonts.googleapis.com/css?family=Overpass+Mono:400,700');
+$base-font-family: 'Overpass Mono', monospace;
 $heading-font-family: $base-font-family;
 
 // Font Sizes
-$base-font-size: 12pt;
+$base-font-size: 1em;
 
 // Line height
 $base-line-height: 1.5;
