@@ -126,8 +126,10 @@ hr {
   }
 }
 
-a:-webkit-any-link {
-    text-decoration: none;
+a, a:link, a:visited, a:focus, a:hover, a:active{
+  color:olive;
+  text-decoration:none;
+  cursor: crosshair;
 }
 
 .category-title {
