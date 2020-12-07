@@ -126,6 +126,12 @@ hr {
   }
 }
 
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 .category-title {
   margin: 1em 0 0.5em 0;
 
