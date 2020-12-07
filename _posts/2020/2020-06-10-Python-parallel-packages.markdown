@@ -12,3 +12,4 @@ date: "2020-06-10 08:57"
 - run on multiprocess: ProcessPoolExecutor
 
 #### 2. ray
+It offer many fancy function, but is hard to use and also contains some bugs.
