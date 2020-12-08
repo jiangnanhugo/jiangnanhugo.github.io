@@ -15,7 +15,8 @@ $viewport-background-color: $white;
 
 :root {
   // Typography
-  --font-family: system-ui, sans-serif;
+  @import url('https://fonts.googleapis.com/css?family=Overpass+Mono:400,700');
+  --font-family: 'Overpass Mono', monospace;
   --font-family--heading: var(--font-family);
 
   --font-weight--thin: 100;
