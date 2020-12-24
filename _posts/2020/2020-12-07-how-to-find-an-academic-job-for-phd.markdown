@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "How to find a academic job for PhD?"
+title: "How to find an academic job for PhD?"
 date: "2020-12-07 18:51"
 ---
 
