@@ -1,6 +1,0 @@
-I"x<ol>
-  <li>AveragedLoss: \(\frac{1}{N}\sum_i^N x(i)\)</li>
-  <li>Topk: \(\arg\max_{1:k} x\)</li>
-  <li></li>
-</ol>
-:ET
