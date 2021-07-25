@@ -11,6 +11,7 @@ group :development do
   gem "bourbon"
   gem "bitters"
   gem 'pygments.rb'
+  gem 'minimal-mistakes-jekyll'
   # gem "katex", '~> 0.5.0'
   # gem "execjs", "~> 2.7.0"
   # gem "therubyracer", "~> 0.12.3"
