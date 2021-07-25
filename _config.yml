@@ -7,6 +7,7 @@ keywords: "NLP, CS, Paper commeonts."
 url: http://jiangnanhugo.github.io/blog # site url
 #baseurl: "/blog" # apply repo name if use it under gh-pages branch
 # baseurl: null # apply null if repo name is something like username.github.io
+theme: minimal-mistakes-jekyll
 
 google_analytics: UA-91769229-1
 repo: http://github.com/jiangnanhugo
