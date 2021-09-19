@@ -5,6 +5,9 @@ permalink: /about/
 image: '/images/school.jpg'
 ---
 
+<!-- ![image](/images/head.jpg) -->
+
+<img align="right" width="100" height="80" src="/images/head.jpg">
 
 My name is Nan Jiang. I'm a PhD student in the department of Computer Science, Purdue university. 
 
