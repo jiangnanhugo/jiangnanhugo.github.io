@@ -2,6 +2,7 @@
 layout: "post"
 title: "Hash functions"
 date: "2020-05-10 21:45"
+image: '/images/hash.png'
 ---
 
 ## uniform hash function
