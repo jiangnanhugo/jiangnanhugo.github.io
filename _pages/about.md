@@ -13,6 +13,10 @@ My name is Nan Jiang. I'm a PhD student in the department of Computer Science, P
 
 
 ## Publications
+- Massive Text Normalization via \\ an Efficient Randomized Algorithm.\\
+**Nan Jiang**, Chen Luo, Vihan Lakshman, Yesh Dattatreya, Yexiang Xue. \\
+TheWebConf 2022.
+
 - PALM: Probabilistic Area Loss Minimization for Protein Sequence Alignment.\\
 Fan Ding, **Nan Jiang**, Jianzhu Ma, Jian Peng, Jinbo Xu, and Yexiang Xue.  \\
 UAI 2021.
