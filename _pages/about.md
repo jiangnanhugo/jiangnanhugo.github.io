@@ -13,7 +13,7 @@ My name is Nan Jiang. I'm a PhD student in the department of Computer Science, P
 
 
 ## Publications
-- Massive Text Normalization via \\ an Efficient Randomized Algorithm.\\
+- Massive Text Normalization via an Efficient Randomized Algorithm.\\
 **Nan Jiang**, Chen Luo, Vihan Lakshman, Yesh Dattatreya, Yexiang Xue. \\
 TheWebConf 2022.
 
