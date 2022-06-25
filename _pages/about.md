@@ -9,7 +9,7 @@ image: '/images/school.jpg'
 
 <img align="right" width="100" height="80" src="/images/head.jpg">
 
-My name is Nan Jiang. I'm a PhD student in the department of Computer Science, Purdue university. 
+My name is Nan Jiang. I'm a PhD student in the department of Computer Science, Purdue university. My advisor is Professor [Yexiang Xue](https://www.cs.purdue.edu/homes/yexiang/).
 
 
 ## Publications
@@ -33,7 +33,7 @@ Neurocomputing 2020.
 Zhen Xu, **Nan Jiang** and et. al.\\
 NAACL-HLT 2018.
 
-- Exploration of Tree-based Hierarchical Softmax for RecurrentLanguage Models.\\
+- Exploration of Tree-based Hierarchical Softmax for Recurrent Language Models.\\
 **Nan Jiang**, Wenge Rong, and et. al.  \\
 IJCAI 2017.
 
