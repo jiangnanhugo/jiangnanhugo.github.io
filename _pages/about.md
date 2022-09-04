@@ -13,6 +13,11 @@ My name is Nan Jiang. I'm a PhD student in the department of Computer Science, P
 
 
 ## Publications
+
+- Constraint Reasoning Embedded in Structural Prediction.\\
+**Nan Jiang**, Maosen Zhang, Willem-Jan van Hoeve, Yexiang Xue. \\
+JMLR 2022.
+
 - Massive Text Normalization via an Efficient Randomized Algorithm.\\
 **Nan Jiang**, Chen Luo, Vihan Lakshman, Yesh Dattatreya, Yexiang Xue. \\
 TheWebConf 2022.
