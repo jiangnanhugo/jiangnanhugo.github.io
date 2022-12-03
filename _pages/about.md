@@ -16,7 +16,8 @@ My name is Nan Jiang. I'm a PhD student in the department of Computer Science, P
 
 - Learning Combinatorial Structures via Markov Random Fields with Sampling through Lovász Local Lemma. \\
 **Nan Jiang**, Yi Gu, Yexiang Xue. \\
-AAAI 2023.
+AAAI 2023. \\
+First two authors contributed equally.
 
 - Constraint Reasoning Embedded in Structural Prediction.\\
 **Nan Jiang**, Maosen Zhang, Willem-Jan van Hoeve, Yexiang Xue. \\
@@ -28,7 +29,8 @@ TheWebConf 2022.
 
 - PALM: Probabilistic Area Loss Minimization for Protein Sequence Alignment.\\
 Fan Ding, **Nan Jiang**, Jianzhu Ma, Jian Peng, Jinbo Xu, and Yexiang Xue.  \\
-UAI 2021.
+UAI 2021.\\
+First two authors contributed equally.
 
 - Language Generation via Combinatorial Constraint Satisfaction: A Tree Search Enhanced Monte-Carlo Approach.\\
 Maosen Zhang, **Nan Jiang**, Lei Li, and Yexiang Xue. \\
