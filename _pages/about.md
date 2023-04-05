@@ -14,7 +14,7 @@ My name is Nan Jiang. I'm a PhD student in the department of Computer Science, P
 
 ## Publications
 
-- Learning Combinatorial Structures via Markov Random Fields with Sampling through Lovász Local Lemma. \\
+- Learning Markov Random Fields for Combinatorial Structures via Sampling through Lovász Local Lemma. \\
 **Nan Jiang**, Yi Gu, Yexiang Xue. \\
 AAAI 2023. \\
 First two authors contributed equally.
