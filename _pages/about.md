@@ -14,6 +14,10 @@ My name is Nan Jiang. I'm a PhD student in the department of Computer Science, P
 
 ## Publications
 
+- Symbolic Regression via Control Variable Genetic Programming. \\
+**Nan Jiang**,  Yexiang Xue. \\
+ECML-PKDD 2023.
+
 - Learning Markov Random Fields for Combinatorial Structures via Sampling through Lovász Local Lemma. \\
 **Nan Jiang**, Yi Gu, Yexiang Xue. \\
 AAAI 2023. \\
