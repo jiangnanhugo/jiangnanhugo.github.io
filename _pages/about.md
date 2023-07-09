@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+classes: wide
 image: '/images/school.jpg'
 ---
 
