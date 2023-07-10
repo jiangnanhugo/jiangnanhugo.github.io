@@ -12,7 +12,7 @@ GEM
     execjs (2.8.1)
     ffi (1.15.5)
     forwardable-extended (2.6.0)
-    google-protobuf (3.23.4)
+    google-protobuf (3.23.4-x86_64-linux)
     http_parser.rb (0.8.0)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
@@ -32,7 +32,8 @@ GEM
       safe_yaml (~> 1.0)
       terminal-table (>= 1.8, < 4.0)
       webrick (~> 1.7)
-    jekyll-paginate (1.1.0)
+    jekyll-paginate-v2 (3.0.0)
+      jekyll (>= 3.0, < 5.0)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
     jekyll-sitemap (1.4.0)
@@ -72,13 +73,13 @@ GEM
     webrick (1.8.1)
 
 PLATFORMS
-  ruby
+  x86_64-linux
 
 DEPENDENCIES
   bundler (~> 2.4.15)
   execjs
   jekyll (~> 4.3.2)
-  jekyll-paginate
+  jekyll-paginate-v2
   jekyll-sitemap
   kramdown-math-katex
 
