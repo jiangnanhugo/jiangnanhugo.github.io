@@ -76,7 +76,6 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  bundler (~> 2.4.15)
   execjs
   jekyll (~> 4.3.2)
   jekyll-paginate-v2
