@@ -75,9 +75,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler
+  bundler (~> 2.4.15)
   execjs
-  jekyll
+  jekyll (~> 4.3.2)
   jekyll-paginate
   jekyll-sitemap
   kramdown-math-katex
