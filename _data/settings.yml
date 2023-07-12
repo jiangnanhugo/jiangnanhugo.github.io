@@ -25,16 +25,6 @@ menu__settings:
 
 
 
-#-------------------------------
-# Footer Settings
-social:
-- {icon: "ion-logo-twitter", color: "#1e2740", label: , link: "https://twitter.com/jiangnan_hugo"}
-- {icon: "ion-logo-instagram", color: "#1e2740", label: , link: "https://www.facebook.com/profile.php?id=100072455172323"}
-- {icon: "ion-logo-linkedin", color: "#1e2740", label: , link: "https://www.linkedin.com/in/jiangnanhugo/"}
-# - {icon: "ion-logo-facebook", color: "#3b5999", label: Facebook, link: "https://facebook.com"}
-# - {icon: "ion-logo-pinterest", color: "#bd081c", label: Pinterest, link: "https://pinterest.com"}
-# - {icon: "ion-logo-dribbble", color: "#ea4c89", label: Dribbble, link: "https://dribbble.com"}
-# - {icon: "ion ion-logo-vimeo", color: "#1393cd", label: Vimeo, link: "https://vimeo.com"}
 
 # Example of adding a new link to the footer section - {icon: "ion-logo-github", color: "#24292e, label: Github, link: "https://github.com"}
 # Other icons can be found at https://ionicons.com/v4/
@@ -49,10 +39,6 @@ social:
 # NOTE
 # Clancy comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
 
-
-#-------------------------------
-# # Comment Section (Disqus)
-# disqus-identifier: anvodstudio-demo # add your shortname for Disqus Comment. For example anvodstudio-demo
 
 
 #-------------------------------
