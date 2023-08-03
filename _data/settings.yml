@@ -10,8 +10,6 @@ description: Walking in the wind.
 # Menu Settings
 menu__settings:
   menu__items:
-    - title: 'Blog'
-      url: '/blog/'
     - title: 'About'
       url: '/about/'
 
