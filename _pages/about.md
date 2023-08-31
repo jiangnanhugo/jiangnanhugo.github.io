@@ -61,8 +61,8 @@ NAACL-HLT 2018.  [(pdf)](https://aclanthology.org/N18-1188.pdf)
 IJCAI 2017. [(pdf)](https://www.ijcai.org/proceedings/2017/0271.pdf) [(code)](https://github.com/jiangnanhugo/lmkit)
 
 - Event Trigger Identification with Noise Contrastive Estimation.\\
-**Nan Jiang**, Wenge Rong, Yifan Nie, Yikang Shen, and Zhang Xiong. [(pdf)](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7936538) [(code)](https://github.com/jiangnanHugo/mlee-nce)\\
-IEEE/ACM Transactions on Computational Biology and Bioinformatics, 2017.
+**Nan Jiang**, Wenge Rong, Yifan Nie, Yikang Shen, and Zhang Xiong.  \\
+IEEE/ACM Transactions on Computational Biology and Bioinformatics, 2017. [(pdf)](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7936538) [(code)](https://github.com/jiangnanHugo/mlee-nce)
 
 - An Empirical Analysis of Different Sparse Penalties for Autoencoder in Unsupervised Feature Learning.\\
 **Nan Jiang**, Wenge Rong, Baolin Peng, Yifan Nie, Zhang Xiong. \\
