@@ -44,9 +44,9 @@ TheWebConf 2022.
 Fan Ding, **Nan Jiang**, Jianzhu Ma, Jian Peng, Jinbo Xu, and Yexiang Xue. (First two authors contributed equally) \\
 UAI 2021. [(pdf)](https://proceedings.mlr.press/v161/ding21c/ding21c.pdf) [(code)](https://github.com/jiangnanhugo/PALM)
 
-- [Language Generation via Combinatorial Constraint Satisfaction: A Tree Search Enhanced Monte-Carlo Approach.](https://aclanthology.org/2020.findings-emnlp.115.pdf)\\
-Maosen Zhang, **Nan Jiang**, Lei Li, and Yexiang Xue. [(code)](https://github.com/Milozms/TSMH)\\
-Finding in EMNLP 2020.
+- Language Generation via Combinatorial Constraint Satisfaction: A Tree Search Enhanced Monte-Carlo Approach. \\
+Maosen Zhang, **Nan Jiang**, Lei Li, and Yexiang Xue. \\
+Finding in EMNLP 2020. [(pdf)](https://aclanthology.org/2020.findings-emnlp.115.pdf) [(code)](https://github.com/Milozms/TSMH)
 
 - A dual channel class hierarchy based recurrent language modeling.\\
 Libin Shi, Wenge Rong, Shijie Zhou, **Nan Jiang**, Zhang Xiong.  \\
