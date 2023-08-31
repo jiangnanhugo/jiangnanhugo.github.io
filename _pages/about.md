@@ -13,7 +13,12 @@ classes: wide
 My name is Nan Jiang (姜楠). I'm a sixth-year PhD student at the department of Computer Science, Purdue university. 
 I am fortunate to be supervised by Professor [Yexiang Xue](https://www.cs.purdue.edu/homes/yexiang/). Previously, I obtained my master's degree at BeiHang University  under the supervision of Professor [Wenge Rong](https://wgrong.github.io/) and bachalor's degree at Zhejiang University of Technology.
 
+**I'm currently actively looking for Postdoc positions.
+Please contact me if there are any available positions.**
+
 [Email](mailto:jiang631@purdue.edu) / [CV](/images/CV.pdf) / [Google Scholar](https://scholar.google.com/citations?user=AiMRnWUAAAAJ&hl=en) / [LinkedIn](https://www.linkedin.com/in/jiangnanhugo/)
+
+
 
 ## Research Interests
 
