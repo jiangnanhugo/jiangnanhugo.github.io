@@ -15,30 +15,5 @@ menu__settings:
 
 
 #-------------------------------
-# Hero Settings
-# hero:
-#   hero__title: Hi, my name's Indra. I'm Product Manager & AI Enthusiast.
-#   hero__description:  I'm a product manager at an AI company in Jakarta, Indonesia. For almost four years I have worked in the industry from engineering, dataset operations, to product development. I'm excited to explore how AI-enabled products can make people's lives better.
-
-
-
-
-
-# Example of adding a new link to the footer section - {icon: "ion-logo-github", color: "#24292e, label: Github, link: "https://github.com"}
-# Other icons can be found at https://ionicons.com/v4/
-
-
-#-------------------------------
-# # Contact Settings
-# contact:
-#   email: indrango@gmail.com # Add your email for contact form
-#   description: Clancy comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want. # Add a description of your form.
-
-# NOTE
-# Clancy comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
-
-
-
-#-------------------------------
 # Google Analytics
 google-analytics: UA-91769229-1
