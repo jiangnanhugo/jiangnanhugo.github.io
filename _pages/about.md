@@ -27,9 +27,13 @@ My PhD research focuses on: Machine Learning with Constraint Reasoning, Symbolic
 
 ## Publications
 
+- Racing Control Variable Genetic Programming for Symbolic Regression. \\
+**Nan Jiang**, Yexiang Xue. \\
+arxiv.  [(pdf)](https://arxiv.org/abs/2309.07934)
+
 - Symbolic Regression via Control Variable Genetic Programming. \\
 **Nan Jiang**, Yexiang Xue. \\
-ECML-PKDD 2023.  [(pdf)](https://arxiv.org/abs/2306.08057) [(code)](https://github.com/jiangnanhugo/cvgp)
+ECML-PKDD 2023.  [(pdf)](https://link.springer.com/chapter/10.1007/978-3-031-43421-1_11) [(code)](https://github.com/jiangnanhugo/cvgp)
 
 - Learning Markov Random Fields for Combinatorial Structures via Sampling through Lovász Local Lemma. \\
 **Nan Jiang**, Yi Gu, Yexiang Xue. (First two authors contributed equally) \\
