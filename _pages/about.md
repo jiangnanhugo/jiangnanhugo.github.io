@@ -3,12 +3,11 @@ layout: page
 title: About
 permalink: /about/
 classes: wide
-# image: '/images/IMG_8506.jpg'
 ---
 
 <!-- ![image](/images/IMG_8506.jpg) -->
 
-<img  height="800" src="/images/IMG_8506.jpg">
+<img  height="800" src="/images/nanjiang.jpg">
 
 My name is Nan Jiang (姜楠). I'm a sixth-year PhD student at the department of Computer Science, Purdue university. 
 I am fortunate to be supervised by Professor [Yexiang Xue](https://www.cs.purdue.edu/homes/yexiang/). Previously, I obtained my master's degree at BeiHang University  under the supervision of Professor [Wenge Rong](https://wgrong.github.io/) and bachalor's degree at Zhejiang University of Technology.
@@ -24,6 +23,24 @@ Please contact me if there are any available positions.**
 
 My PhD research focuses on: Machine Learning with Constraint Reasoning, Symbolic regression for scientific discovery. 
 
+
+## Research Highlights
+
+### AI-driven Scientific Discovery
+
+- We propose an end-to-end framework to learn physics models in the form of Partial Differential Equations (PDEs) directly from the experiment data.
+- We scale up learning first-principle models harnessing randomized algorithms, exploiting the fact that the temporal evolutions of many physical systems often consist of gradually changing updates across wide areas in addition to a few rapid updates concentrated in a small set of “interfacial” regions.
+- The development of AI-driven scientific discovery approaches was motivated by the real-world application of learning the physics model of nano-scale crystalline defects in materials under extreme conditions.
+- Papers: 
+
+### Constraint Reasoning Embedded in Machine Learning
+
+- We propose COnstraint REasoning embedded structured learning (CORE), a scalable constraint reasoning and machine learning integrated approach for learning over structured domains.
+- We embed decision diagrams, a popular constraint reasoning tool, as a fully-differentiable module into deep learning models.
+- In data-driven operational research and program synthesis from the natural language, the structures generated with CORE satisfy 100% of the constraints when using exact decision diagrams. In addition, CORE boosts learning performance by reducing the modeling space via constraint satisfaction.
+CORE also generates designs which satisfy complex user specifications as well as meet aethetics, utility and convenience requirements.
+
+- Papers: 
 
 ## Publications
 
