@@ -9,8 +9,8 @@ classes: wide
 
 <img  height="800" src="/images/nanjiang.jpg">
 
-My name is Nan Jiang (姜楠). I'm a sixth-year PhD student at the department of Computer Science, Purdue university. 
-I am fortunate to be supervised by Professor [Yexiang Xue](https://www.cs.purdue.edu/homes/yexiang/). Previously, I obtained my master's degree at BeiHang University  under the supervision of Professor [Wenge Rong](https://wgrong.github.io/) and bachalor's degree at Zhejiang University of Technology.
+My name is Nan Jiang (姜楠). I'm a sixth-year PhD student at the Department of Computer Science, at Purdue University. 
+I am fortunate to be supervised by Professor [Yexiang Xue](https://www.cs.purdue.edu/homes/yexiang/). Previously, I obtained my master's degree at Beihang University  under the supervision of Professor [Wenge Rong](https://wgrong.github.io/) and a bachelor's degree at the Zhejiang University of Technology.
 
 **I'm currently actively looking for Postdoc positions.
 Please contact me if there are any available positions.**
@@ -21,7 +21,7 @@ Please contact me if there are any available positions.**
 
 ## Research Interests
 
-My PhD research focuses on: Machine Learning with Constraint Reasoning, Symbolic regression for scientific discovery. 
+My PhD research focuses on Machine Learning with Constraint Reasoning and symbolic regression for scientific discovery. 
 
 
 ## Research Highlights
@@ -38,7 +38,7 @@ My PhD research focuses on: Machine Learning with Constraint Reasoning, Symbolic
 - We propose COnstraint REasoning embedded structured learning (CORE), a scalable constraint reasoning and machine learning integrated approach for learning over structured domains.
 - We embed decision diagrams, a popular constraint reasoning tool, as a fully-differentiable module into deep learning models.
 - In data-driven operational research and program synthesis from the natural language, the structures generated with CORE satisfy 100% of the constraints when using exact decision diagrams. In addition, CORE boosts learning performance by reducing the modeling space via constraint satisfaction.
-CORE also generates designs which satisfy complex user specifications as well as meet aethetics, utility and convenience requirements.
+CORE also generates designs that satisfy complex user specifications as well as meet aesthetics, utility, and convenience requirements.
 
 - Papers: 
 
@@ -46,7 +46,7 @@ CORE also generates designs which satisfy complex user specifications as well as
 
 - Racing Control Variable Genetic Programming for Symbolic Regression. \\
 **Nan Jiang**, Yexiang Xue. \\
-arxiv.  [(pdf)](https://arxiv.org/abs/2309.07934)
+AAAI 2024.  [(pdf)](https://arxiv.org/abs/2309.07934)
 
 - Symbolic Regression via Control Variable Genetic Programming. \\
 **Nan Jiang**, Yexiang Xue. \\
