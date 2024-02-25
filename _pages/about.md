@@ -45,18 +45,18 @@ My PhD research focuses on Machine Learning with Constraint Reasoning and symbol
 - In data-driven operational research and program synthesis from the natural language, the structures generated with CORE satisfy 100% of the constraints when using exact decision diagrams. In addition, CORE boosts learning performance by reducing the modeling space via constraint satisfaction.
 CORE also generates designs that satisfy complex user specifications as well as meet aesthetics, utility, and convenience requirements.
 
-- Papers: [C1](####C1)
+- 
 
 ## Publications
 
 13. Solving Satisfiability Modulo Counting for Symbolic and Statistical AI Integration with Provable Guarantees.\\
 Jinzhao Li, **Nan Jiang** and Yexiang Xue.\\
-AAAI 2024.  [(pdf)](https://arxiv.org/abs/2309.08883)
+AAAI 2024.  [(pdf)](https://arxiv.org/abs/2309.08883)(poster)[](code)[https://github.com/jil016/xor-smc]
 
 
 12. Racing Control Variable Genetic Programming for Symbolic Regression. \\
 **Nan Jiang**, Yexiang Xue. \\
-AAAI 2024.  [(pdf)](https://arxiv.org/abs/2309.07934)
+AAAI 2024.  [(pdf)](https://arxiv.org/abs/2309.07934)(poster)(code)[https://bitbucket.org/xlnxyx/racing_cvgp/src/master/]
 
 11. Symbolic Regression via Control Variable Genetic Programming. \\
 **Nan Jiang**, Yexiang Xue. \\
@@ -73,8 +73,7 @@ JMLR 2022. [(pdf)](https://www.jmlr.org/papers/volume23/21-1484/21-1484.pdf) [(p
 
 8. Massive Text Normalization via an Efficient Randomized Algorithm.\\
 **Nan Jiang**, Chen Luo, Vihan Lakshman, Yesh Dattatreya, Yexiang Xue. \\
-TheWebConf 2022.
-[(pdf)](https://dl.acm.org/doi/pdf/10.1145/3485447.3512015) [(code)](https://bitbucket.org/jiang631/lsh_norm/src/master/)
+TheWebConf 2022. [(pdf)](https://dl.acm.org/doi/pdf/10.1145/3485447.3512015) (poster)[][(code)](https://bitbucket.org/jiang631/lsh_norm/src/master/)
 
 7. PALM: Probabilistic Area Loss Minimization for Protein Sequence Alignment.\\
 Fan Ding, **Nan Jiang**, Jianzhu Ma, Jian Peng, Jinbo Xu, and Yexiang Xue. (First two authors contributed equally) \\
@@ -96,10 +95,10 @@ NAACL-HLT 2018.  [(pdf)](https://aclanthology.org/N18-1188.pdf)
 **Nan Jiang**, Wenge Rong, Min Gao, Yikang Shen, Zhang Xiong. \\
 IJCAI 2017. [(pdf)](https://www.ijcai.org/proceedings/2017/0271.pdf) [(code)](https://github.com/jiangnanhugo/lmkit)
 
-2. [J1] Event Trigger Identification with Noise Contrastive Estimation.\\
+2. Event Trigger Identification with Noise Contrastive Estimation.\\
 **Nan Jiang**, Wenge Rong, Yifan Nie, Yikang Shen, and Zhang Xiong.  \\
 IEEE/ACM Transactions on Computational Biology and Bioinformatics, 2017. [(pdf)](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7936538) [(code)](https://github.com/jiangnanHugo/mlee-nce)
 
-1. ####C1 An Empirical Analysis of Different Sparse Penalties for Autoencoder in Unsupervised Feature Learning.\\
+1. An Empirical Analysis of Different Sparse Penalties for Autoencoder in Unsupervised Feature Learning.\\
 **Nan Jiang**, Wenge Rong, Baolin Peng, Yifan Nie, Zhang Xiong. \\
-IJCNN, 2015. [(pdf)](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7280568)
+IJCNN, 2015. [(pdf)](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7280568) (code)[https://github.com/jiangnanhugo/Undergraduate_Design/tree/master/Self-Taught-Learning]
