@@ -64,7 +64,7 @@ ECML-PKDD 2023.  [(paper)](https://link.springer.com/chapter/10.1007/978-3-031-4
 
 10. Learning Markov Random Fields for Combinatorial Structures via Sampling through Lovász Local Lemma. \\
 **Nan Jiang**, Yi Gu, Yexiang Xue. (First two authors contributed equally) \\
-AAAI 2023. [(paper)]((https://ojs.aaai.org/index.php/AAAI/article/view/25516/25288)) [(poster)]() [(code)](https://github.com/jiangnanhugo/nelson-cd)
+AAAI 2023. [(paper)]((https://ojs.aaai.org/index.php/AAAI/article/view/25516/25288)) [(poster)](/static/aaai2023_poster.pdf) [(slides)](/static/aaai23_slides.pdf) [(code)](https://github.com/jiangnanhugo/nelson-cd)
 
 
 9. Constraint Reasoning Embedded in Structural Prediction.\\
@@ -76,7 +76,7 @@ JMLR 2022. [(paper)](https://www.jmlr.org/papers/volume23/21-1484/21-1484.pdf) [
 TheWebConf 2022. [(paper)](https://dl.acm.org/doi/pdf/10.1145/3485447.3512015) [(slides)](/static/www2022_slides.pdf) [(code)](https://bitbucket.org/jiang631/lsh_norm/src/master/)
 
 7. PALM: Probabilistic Area Loss Minimization for Protein Sequence Alignment.\\
-Fan Ding, **Nan Jiang**, Jianzhu Ma, Jian Peng, Jinbo Xu, and Yexiang Xue. (First two authors contributed equally) \\
+**Nan Jiang**, Fan Ding, Jianzhu Ma, Jian Peng, Jinbo Xu, and Yexiang Xue. (First two authors contributed equally) \\
 UAI 2021. [(paper)](https://proceedings.mlr.press/v161/ding21c/ding21c.pdf) [(poster)](/static/UAI21_poster.pdf) [(code)](https://github.com/jiangnanhugo/PALM)
 
 6. Language Generation via Combinatorial Constraint Satisfaction: A Tree Search Enhanced Monte-Carlo Approach. \\
