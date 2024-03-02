@@ -101,4 +101,4 @@ IEEE/ACM Transactions on Computational Biology and Bioinformatics, 2017. [(paper
 
 1. An Empirical Analysis of Different Sparse Penalties for Autoencoder in Unsupervised Feature Learning.\\
 **Nan Jiang**, Wenge Rong, Baolin Peng, Yifan Nie, Zhang Xiong. \\
-IJCNN, 2015. [(paper)](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7280568) (code)[https://github.com/jiangnanhugo/Undergraduate_Design/tree/master/Self-Taught-Learning]
+IJCNN, 2015. [(paper)](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7280568) [(code)](https://github.com/jiangnanhugo/Undergraduate_Design/tree/master/Self-Taught-Learning)
