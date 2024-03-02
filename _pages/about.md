@@ -77,7 +77,7 @@ TheWebConf 2022. [(paper)](https://dl.acm.org/doi/pdf/10.1145/3485447.3512015) [
 
 7. PALM: Probabilistic Area Loss Minimization for Protein Sequence Alignment.\\
 **Nan Jiang**, Fan Ding, Jianzhu Ma, Jian Peng, Jinbo Xu, and Yexiang Xue. (First two authors contributed equally) \\
-UAI 2021. [(paper)](https://proceedings.mlr.press/v161/ding21c/ding21c.pdf) [(poster)](/static/UAI21_poster.pdf) [(code)](https://github.com/jiangnanhugo/PALM)
+UAI 2021. [(paper)](https://proceedings.mlr.press/v161/ding21c/ding21c.pdf) [(poster)](/static/UAI21_poster.pdf) [(slides)](/static/uai21_slides.pdf)  [(code)](https://github.com/jiangnanhugo/PALM)
 
 6. Language Generation via Combinatorial Constraint Satisfaction: A Tree Search Enhanced Monte-Carlo Approach. \\
 Maosen Zhang, **Nan Jiang**, Lei Li, and Yexiang Xue. \\
