@@ -64,7 +64,7 @@ ECML-PKDD 2023.  [(paper)](https://link.springer.com/chapter/10.1007/978-3-031-4
 
 10. Learning Markov Random Fields for Combinatorial Structures via Sampling through Lovász Local Lemma. \\
 **Nan Jiang**, Yi Gu, Yexiang Xue. (First two authors contributed equally) \\
-AAAI 2023. [(paper)]((https://ojs.aaai.org/index.php/AAAI/article/view/25516/25288)) [(poster)](/static/aaai2023_poster.pdf) [(slides)](/static/aaai23_slides.pdf) [(code)](https://github.com/jiangnanhugo/nelson-cd)
+AAAI 2023. [(paper)](https://ojs.aaai.org/index.php/AAAI/article/view/25516/25288) [(poster)](/static/aaai2023_poster.pdf) [(slides)](/static/aaai23_slides.pdf) [(code)](https://github.com/jiangnanhugo/nelson-cd)
 
 
 9. Constraint Reasoning Embedded in Structural Prediction.\\
@@ -83,7 +83,7 @@ UAI 2021. [(paper)](https://proceedings.mlr.press/v161/ding21c/ding21c.pdf) [(po
 Maosen Zhang, **Nan Jiang**, Lei Li, and Yexiang Xue. \\
 Finding in EMNLP 2020. [(paper)](https://aclanthology.org/2020.findings-emnlp.115.pdf) [(poster)](/static/EMNLP2020_poster.pdf) [(code)](https://github.com/Milozms/TSMH)
 
-5. A dual channel class hierarchy based recurrent language modeling.\\
+5. A dual channel class hierarchy-based recurrent language modeling.\\
 Libin Shi, Wenge Rong, Shijie Zhou, **Nan Jiang**, Zhang Xiong.  \\
 Neurocomputing 2020.
 
