@@ -49,6 +49,10 @@ CORE also generates designs that satisfy complex user specifications as well as 
 
 ## Publications
 
+14. Vertical Symbolic Regression via Deep Policy Gradient.\\
+Nan Jiang, Md Nasim, Yexiang Xue.\\
+IJCAI 2024. 
+
 13. Solving Satisfiability Modulo Counting for Symbolic and Statistical AI Integration with Provable Guarantees.\\
 Jinzhao Li, **Nan Jiang** and Yexiang Xue.\\
 AAAI 2024.  [(paper)](https://arxiv.org/abs/2309.08883) [(poster)](/static/aaai24_smc_poster.pdf) [(code)](https://github.com/jil016/xor-smc)
