@@ -36,8 +36,8 @@ paginate_path: "/blog/page/:num"
 #     values:
 #       permalink: /blog/:slug
 
-# include:
-#   - _pages
+include:
+  - _pages
 
 sass:
   sass_dir: _sass
