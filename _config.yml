@@ -26,18 +26,18 @@ paginate: 5
 paginate_path: "/blog/page/:num"
 
 # Pages Path
-defaults:
-  - scope:
-      path: '_pages'
-    values:
-      permalink: /:basename:output_ext
-  - scope:
-      path: '_posts'
-    values:
-      permalink: /blog/:slug
+# defaults:
+#   - scope:
+#       path: '_pages'
+#     values:
+#       permalink: /:basename:output_ext
+#   - scope:
+#       path: '_posts'
+#     values:
+#       permalink: /blog/:slug
 
-include:
-  - _pages
+# include:
+#   - _pages
 
 sass:
   sass_dir: _sass
