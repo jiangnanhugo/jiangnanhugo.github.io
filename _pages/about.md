@@ -51,11 +51,11 @@ CORE also generates designs that satisfy complex user specifications as well as 
 ## Publications
 
 15. A Tighter Convergence Proof of Reverse Experience Replay.\\
-**Nan Jiang**, Jinzhao Li, and Yexiang Xue.\\
+**Nan Jiang**, Jinzhao Li, Yexiang Xue.\\
 The first Reinforcement Learning Conference (RLC) 2024.
 
 14. Vertical Symbolic Regression via Deep Policy Gradient.\\
-Nan Jiang, Md Nasim, Yexiang Xue.\\
+**Nan Jiang**, Md Nasim, Yexiang Xue.\\
 IJCAI 2024. 
 
 13. Solving Satisfiability Modulo Counting for Symbolic and Statistical AI Integration with Provable Guarantees.\\
