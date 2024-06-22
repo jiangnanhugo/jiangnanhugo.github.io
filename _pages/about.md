@@ -42,13 +42,17 @@ My PhD research focuses on Machine Learning with Constraint Reasoning and symbol
 ### Constraint Reasoning Embedded in Machine Learning
 
 - We propose COnstraint REasoning embedded structured learning (CORE), a scalable constraint reasoning and machine learning integrated approach for learning over structured domains.
-- We embed decision diagrams, a popular constraint reasoning tool, as a fully-differentiable module into deep learning models.
+- We embed decision diagrams, a popular constraint reasoning tool, as a fully differentiable module into deep learning models.
 - In data-driven operational research and program synthesis from the natural language, the structures generated with CORE satisfy 100% of the constraints when using exact decision diagrams. In addition, CORE boosts learning performance by reducing the modeling space via constraint satisfaction.
 CORE also generates designs that satisfy complex user specifications as well as meet aesthetics, utility, and convenience requirements.
 
 
 
 ## Publications
+
+15. A Tighter Convergence Proof of Reverse Experience Replay.\\
+**Nan Jiang**, Jinzhao Li, and Yexiang Xue.\\
+The first Reinforcement Learning Conference (RLC) 2024.
 
 14. Vertical Symbolic Regression via Deep Policy Gradient.\\
 Nan Jiang, Md Nasim, Yexiang Xue.\\
@@ -68,7 +72,7 @@ AAAI 2024.  [(paper)](https://arxiv.org/abs/2309.07934) [(poster)](/static/aaai2
 ECML-PKDD 2023.  [(paper)](https://link.springer.com/chapter/10.1007/978-3-031-43421-1_11) [(poster)](/static/ecml2023_poster.pdf) [(slides)](/static/ecml2023_slides.pdf) [(code)](https://github.com/jiangnanhugo/cvgp)
 
 10. Learning Markov Random Fields for Combinatorial Structures via Sampling through Lovász Local Lemma. \\
-**Nan Jiang**, Yi Gu, Yexiang Xue. (First two authors contributed equally) \\
+**Nan Jiang**, Yi Gu, Yexiang Xue. (The first two authors contributed equally) \\
 AAAI 2023. [(paper)](https://ojs.aaai.org/index.php/AAAI/article/view/25516/25288) [(poster)](/static/aaai2023_poster.pdf) [(slides)](/static/aaai23_slides.pdf) [(code)](https://github.com/jiangnanhugo/nelson-cd)
 
 
@@ -81,7 +85,7 @@ JMLR 2022. [(paper)](https://www.jmlr.org/papers/volume23/21-1484/21-1484.pdf) [
 TheWebConf 2022. [(paper)](https://dl.acm.org/doi/pdf/10.1145/3485447.3512015) [(slides)](/static/www2022_slides.pdf) [(code)](https://bitbucket.org/jiang631/lsh_norm/src/master/)
 
 7. PALM: Probabilistic Area Loss Minimization for Protein Sequence Alignment.\\
-**Nan Jiang**, Fan Ding, Jianzhu Ma, Jian Peng, Jinbo Xu, and Yexiang Xue. (First two authors contributed equally) \\
+**Nan Jiang**, Fan Ding, Jianzhu Ma, Jian Peng, Jinbo Xu, and Yexiang Xue. (The first two authors contributed equally) \\
 UAI 2021. [(paper)](https://proceedings.mlr.press/v161/ding21c/ding21c.pdf) [(poster)](/static/UAI21_poster.pdf) [(slides)](/static/uai21_slides.pdf)  [(code)](https://github.com/jiangnanhugo/PALM)
 
 6. Language Generation via Combinatorial Constraint Satisfaction: A Tree Search Enhanced Monte-Carlo Approach. \\
@@ -92,7 +96,7 @@ Finding in EMNLP 2020. [(paper)](https://aclanthology.org/2020.findings-emnlp.11
 Libin Shi, Wenge Rong, Shijie Zhou, **Nan Jiang**, Zhang Xiong.  \\
 Neurocomputing 2020.
 
-4. LSDSCC: A Large Scale Domain-Specific Conversational Corpusfor Response Generation with Diversity Oriented Evaluation Metrics. \\
+4. LSDSCC: A Large Scale Domain-Specific Conversational Corpus for Response Generation with Diversity Oriented Evaluation Metrics. \\
 Zhen Xu, **Nan Jiang** and et. al.\\
 NAACL-HLT 2018.  [(paper)](https://aclanthology.org/N18-1188.pdf)
 
