@@ -52,7 +52,7 @@ CORE also generates designs that satisfy complex user specifications as well as 
 
 15. A Tighter Convergence Proof of Reverse Experience Replay.\\
 **Nan Jiang**, Jinzhao Li, Yexiang Xue.\\
-The first Reinforcement Learning Conference (RLC) 2024.
+The first Reinforcement Learning Conference (RLC) 2024. [(paper)](https://rlj.cs.umass.edu/2024/papers/Paper50.html)
 
 14. Vertical Symbolic Regression via Deep Policy Gradient.\\
 **Nan Jiang**, Md Nasim, Yexiang Xue.\\
