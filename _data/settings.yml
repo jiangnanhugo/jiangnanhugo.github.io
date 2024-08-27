@@ -6,14 +6,3 @@ author: Nan Jiang
 description: 
 
 
-#-------------------------------
-# Menu Settings
-menu__settings:
-  menu__items:
-    - title: 'About'
-      url: '/about/'
-
-
-#-------------------------------
-# Google Analytics
-google-analytics: UA-91769229-1

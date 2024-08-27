@@ -86,7 +86,7 @@ PLATFORMS
 
 DEPENDENCIES
   execjs
-  jekyll (~> 4.3.2)
+  jekyll (~> 4.3.3)
   jekyll-paginate
   jekyll-sitemap
   kramdown-math-katex

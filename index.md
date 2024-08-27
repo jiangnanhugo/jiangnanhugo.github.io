@@ -1,11 +1,9 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Nan Jiang - Purdue University
 classes: wide
 ---
 
-<!-- ![image](/images/IMG_8506.jpg) -->
 
 
 <img  height="800" src="/images/nanjiang.jpeg">
