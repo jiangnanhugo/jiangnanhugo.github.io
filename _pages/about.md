@@ -8,7 +8,7 @@ classes: wide
 <!-- ![image](/images/IMG_8506.jpg) -->
 
 
-<img  height="800" src="/images/nanjiang.jpg">
+<img  height="800" src="/images/nanjiang.jpeg">
 
 My name is Nan Jiang (姜楠). I'm a PhD candidate at the Department of Computer Science, at Purdue University. 
 I am fortunate to be supervised by Professor [Yexiang Xue](https://www.cs.purdue.edu/homes/yexiang/). 
