@@ -56,75 +56,73 @@ CORE also generates designs that satisfy complex user specifications as well as 
 
 ### 2024
 
-15. A Tighter Convergence Proof of Reverse Experience Replay.\\
+15. [A Tighter Convergence Proof of Reverse Experience Replay](https://rlj.cs.umass.edu/2024/papers/Paper50.html).\\
 **Nan Jiang**, Jinzhao Li, Yexiang Xue.\\
-The first Reinforcement Learning Conference (RLC) 2024. [(paper)](https://rlj.cs.umass.edu/2024/papers/Paper50.html)
+The first Reinforcement Learning Conference (RLC) 2024.
 
-14. Vertical Symbolic Regression via Deep Policy Gradient.\\
+1.  [Vertical Symbolic Regression via Deep Policy Gradient](https://arxiv.org/pdf/2402.00254).\\
 **Nan Jiang**, Md Nasim, Yexiang Xue.\\
 IJCAI 2024. 
 
-13. Solving Satisfiability Modulo Counting for Symbolic and Statistical AI Integration with Provable Guarantees.\\
+1.  [Solving Satisfiability Modulo Counting for Symbolic and Statistical AI Integration with Provable Guarantees](https://arxiv.org/abs/2309.08883).\\
 Jinzhao Li, **Nan Jiang** and Yexiang Xue.\\
-AAAI 2024.  [(paper)](https://arxiv.org/abs/2309.08883) [(poster)](/static/aaai24_smc_poster.pdf) [(code)](https://github.com/jil016/xor-smc)
+AAAI 2024. [(poster)](/static/aaai24_smc_poster.pdf) [(code)](https://github.com/jil016/xor-smc)
 
 
-12. Racing Control Variable Genetic Programming for Symbolic Regression. \\
+1. [Racing Control Variable Genetic Programming for Symbolic Regression](https://arxiv.org/abs/2309.07934). \\
 **Nan Jiang**, Yexiang Xue. \\
-AAAI 2024.  [(paper)](https://arxiv.org/abs/2309.07934) [(poster)](/static/aaai24_racing_poster.pdf) [(code)](https://bitbucket.org/xlnxyx/racing_cvgp/src/master/)
+AAAI 2024.  [(poster)](/static/aaai24_racing_poster.pdf) [(code)](https://bitbucket.org/xlnxyx/racing_cvgp/src/master/)
 
 ### 2023
 
-11. Symbolic Regression via Control Variable Genetic Programming. \\
+11. [Symbolic Regression via Control Variable Genetic Programming](https://link.springer.com/chapter/10.1007/978-3-031-43421-1_11). \\
 **Nan Jiang**, Yexiang Xue. \\
-ECML-PKDD 2023.  [(paper)](https://link.springer.com/chapter/10.1007/978-3-031-43421-1_11) [(poster)](/static/ecml2023_poster.pdf) [(slides)](/static/ecml2023_slides.pdf) [(code)](https://github.com/jiangnanhugo/cvgp)
+ECML-PKDD 2023. [(poster)](/static/ecml2023_poster.pdf) [(slides)](/static/ecml2023_slides.pdf) [(code)](https://github.com/jiangnanhugo/cvgp)
 
-10. Learning Markov Random Fields for Combinatorial Structures via Sampling through Lovász Local Lemma. \\
+1.  [Learning Markov Random Fields for Combinatorial Structures via Sampling through Lovász Local Lemma](https://ojs.aaai.org/index.php/AAAI/article/view/25516/25288). \\
 **Nan Jiang**, Yi Gu, Yexiang Xue. (The first two authors contributed equally) \\
-AAAI 2023. [(paper)](https://ojs.aaai.org/index.php/AAAI/article/view/25516/25288) [(poster)](/static/aaai2023_poster.pdf) [(slides)](/static/aaai23_slides.pdf) [(code)](https://github.com/jiangnanhugo/nelson-cd)
+AAAI 2023. [(poster)](/static/aaai2023_poster.pdf) [(slides)](/static/aaai23_slides.pdf) [(code)](https://github.com/jiangnanhugo/nelson-cd)
 
 ### 2022
 
-9. Constraint Reasoning Embedded in Structural Prediction.\\
+9. [Constraint Reasoning Embedded in Structural Prediction](https://www.jmlr.org/papers/volume23/21-1484/21-1484.pdf).\\
 **Nan Jiang**, Maosen Zhang, Willem-Jan van Hoeve, Yexiang Xue. \\
-JMLR 2022. [(paper)](https://www.jmlr.org/papers/volume23/21-1484/21-1484.pdf) [(poster)](/static/jmlr21_poster.pdf) [(code)](https://jiangnanhugo.github.io/CORE-SP/)
+JMLR 2022. [(poster)](/static/jmlr21_poster.pdf) [(code)](https://jiangnanhugo.github.io/CORE-SP/)
 
-8. Massive Text Normalization via an Efficient Randomized Algorithm.\\
+1. [Massive Text Normalization via an Efficient Randomized Algorithm](https://dl.acm.org/doi/pdf/10.1145/3485447.3512015).\\
 **Nan Jiang**, Chen Luo, Vihan Lakshman, Yesh Dattatreya, Yexiang Xue. \\
-TheWebConf 2022. [(paper)](https://dl.acm.org/doi/pdf/10.1145/3485447.3512015) [(slides)](/static/www2022_slides.pdf) [(code)](https://bitbucket.org/jiang631/lsh_norm/src/master/)
+TheWebConf 2022. [(slides)](/static/www2022_slides.pdf) [(code)](https://bitbucket.org/jiang631/lsh_norm/src/master/)
 
 ### 2021
 
-7. PALM: Probabilistic Area Loss Minimization for Protein Sequence Alignment.\\
+7. [PALM: Probabilistic Area Loss Minimization for Protein Sequence Alignment](https://proceedings.mlr.press/v161/ding21c/ding21c.pdf).\\
 **Nan Jiang**, Fan Ding, Jianzhu Ma, Jian Peng, Jinbo Xu, and Yexiang Xue. (The first two authors contributed equally) \\
-UAI 2021. [(paper)](https://proceedings.mlr.press/v161/ding21c/ding21c.pdf) [(poster)](/static/UAI21_poster.pdf) [(slides)](/static/uai21_slides.pdf)  [(code)](https://github.com/jiangnanhugo/PALM)
+UAI 2021. [(poster)](/static/UAI21_poster.pdf) [(slides)](/static/uai21_slides.pdf)  [(code)](https://github.com/jiangnanhugo/PALM)
 
 ### 2020
-6. Language Generation via Combinatorial Constraint Satisfaction: A Tree Search Enhanced Monte-Carlo Approach. \\
+6. [Language Generation via Combinatorial Constraint Satisfaction: A Tree Search Enhanced Monte-Carlo Approach](https://aclanthology.org/2020.findings-emnlp.115.pdf). \\
 Maosen Zhang, **Nan Jiang**, Lei Li, and Yexiang Xue. \\
-Finding in EMNLP 2020. [(paper)](https://aclanthology.org/2020.findings-emnlp.115.pdf) [(poster)](/static/EMNLP2020_poster.pdf) [(code)](https://github.com/Milozms/TSMH)
+Finding in EMNLP 2020. [(poster)](/static/EMNLP2020_poster.pdf) [(code)](https://github.com/Milozms/TSMH)
 
-5. A dual channel class hierarchy-based recurrent language modeling.\\
+1. A dual channel class hierarchy-based recurrent language modeling.\\
 Libin Shi, Wenge Rong, Shijie Zhou, **Nan Jiang**, Zhang Xiong.  \\
 Neurocomputing 2020.
 
 ### Older Papers
 
-4. LSDSCC: A Large Scale Domain-Specific Conversational Corpus for Response Generation with Diversity Oriented Evaluation Metrics. \\
+4. [LSDSCC: A Large Scale Domain-Specific Conversational Corpus for Response Generation with Diversity Oriented Evaluation Metrics](https://aclanthology.org/N18-1188.pdf). \\
 Zhen Xu, **Nan Jiang** and et. al.\\
-NAACL-HLT 2018.  [(paper)](https://aclanthology.org/N18-1188.pdf)
+NAACL-HLT 2018.
 
-3. Exploration of Tree-based Hierarchical Softmax for Recurrent Language Models.\\
+1. [Exploration of Tree-based Hierarchical Softmax for Recurrent Language Models](https://www.ijcai.org/proceedings/2017/0271.pdf).\\
 **Nan Jiang**, Wenge Rong, Min Gao, Yikang Shen, Zhang Xiong. \\
-IJCAI 2017. [(paper)](https://www.ijcai.org/proceedings/2017/0271.pdf) [(code)](https://github.com/jiangnanhugo/lmkit)
+IJCAI 2017. [(code)](https://github.com/jiangnanhugo/lmkit)
 
-2. Event Trigger Identification with Noise Contrastive Estimation.\\
+1. [Event Trigger Identification with Noise Contrastive Estimation](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7936538).\\
 **Nan Jiang**, Wenge Rong, Yifan Nie, Yikang Shen, and Zhang Xiong.  \\
-IEEE/ACM Transactions on Computational Biology and Bioinformatics, 2017. [(paper)](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7936538) [(code)](https://github.com/jiangnanHugo/mlee-nce)
+IEEE/ACM Transactions on Computational Biology and Bioinformatics, 2017. [(code)](https://github.com/jiangnanHugo/mlee-nce)
 
-1. An Empirical Analysis of Different Sparse Penalties for Autoencoder in Unsupervised Feature Learning.\\
+1. [An Empirical Analysis of Different Sparse Penalties for Autoencoder in Unsupervised Feature Learning](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7280568).\\
 **Nan Jiang**, Wenge Rong, Baolin Peng, Yifan Nie, Zhang Xiong. \\
-IJCNN, 2015. [(paper)](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7280568) [(code)](https://github.com/jiangnanhugo/Undergraduate_Design/tree/master/Self-Taught-Learning)
+IJCNN, 2015. [(code)](https://github.com/jiangnanhugo/Undergraduate_Design/tree/master/Self-Taught-Learning)
 
-
-## Open Source
