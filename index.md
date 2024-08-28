@@ -5,8 +5,10 @@ classes: wide
 ---
 
 <div style="display: flex;">
-  <div style="flex: 1;">
-    <img  width="100%" src="/images/nanjiang.jpeg">
+  <div style="flex: 0.8;">
+    <div class="image-container">
+        <img  src="/images/nanjiang.jpeg" class="centered-image">
+    </div>
   </div>
   <div style="flex: 1.9; padding-left: 20px;">
     <h1>Nan Jiang</h1>
@@ -24,13 +26,13 @@ classes: wide
   </div>
 </div>
 
----
-<nav style="display: flex; justify-content: space-around; text-transform: uppercase;">
+
+<nav class="navbar" style="display: flex; font-size: 16px; justify-content: space-around; text-transform: uppercase;">
   <a href="#research-highlights">Research Highlights</a> 
   <a href="#publications">PUBLICATIONS</a> 
   <a href="#open-source">Open-Source</a>
 </nav>
----
+
 
 <br>
 
