@@ -4,29 +4,36 @@ title: Nan Jiang - Purdue University
 classes: wide
 ---
 
+<div style="display: flex;">
+  <div style="flex: 1;">
+    <img  width="100%" src="/images/nanjiang.jpeg">
+  </div>
+  <div style="flex: 1.9; padding-left: 20px;">
+    <h1>Nan Jiang</h1>
+    <p>
+          PhD Candidate
+          <br>
+          <a href="https://cs.purdue.edu/">Computer Science Department</a>
+          <br>
+          <a href="https://purdue.edu/">Purdue University, Indiana</a> 
+          <br>
+          <br>
+          <strong>Research Interests:</strong> Reasoning for Machine Learning and scientific discovery. 
+          <p>Contacts: <a href="mailto:jiang631@purdue.edu">Email</a> / <a href="/images/CV.pdf">CV</a> / <a href="https://scholar.google.com/citations?user=AiMRnWUAAAAJ&amp;hl=en">Google Scholar</a> / <a href="https://www.linkedin.com/in/jiangnanhugo/">LinkedIn</a></p>
+        </p>
+  </div>
+</div>
 
+---
+<nav style="display: flex; justify-content: space-around; text-transform: uppercase;">
+  <a href="#Research Highlights">Research Highlights</a> 
+  <a href="#publications">PUBLICATIONS</a> 
+  <a href="#open source">Open-Source</a> 
+  <a href="#contact">Contact</a>
+</nav>
+---
 
-<img  height="800" src="/images/nanjiang.jpeg">
-
-My name is Nan Jiang (姜楠). I'm a PhD candidate at the Department of Computer Science, at Purdue University. 
-I am fortunate to be supervised by Professor [Yexiang Xue](https://www.cs.purdue.edu/homes/yexiang/). 
-<!-- Previously, I obtained my master's degree at Beihang University  under the supervision of Professor [Wenge Rong](https://wgrong.github.io/) and a bachelor's degree at the Zhejiang University of Technology. -->
-
-
-<!-- **I'm currently actively looking for Postdoc positions.
-Please contact me if there are any available positions.** -->
-
-
-<!-- [Research Statement]() and [Teaching Statement]()  -->
-
-Contacts: [Email](mailto:jiang631@purdue.edu) / [CV](/images/CV.pdf) / [Google Scholar](https://scholar.google.com/citations?user=AiMRnWUAAAAJ&hl=en) / [LinkedIn](https://www.linkedin.com/in/jiangnanhugo/)
-
-
-
-## Research Interests
-
-My PhD research focuses on Machine Learning with Constraint Reasoning and symbolic regression for scientific discovery. 
-
+<br>
 
 ## Research Highlights
 
@@ -48,6 +55,8 @@ CORE also generates designs that satisfy complex user specifications as well as 
 
 ## Publications
 
+### 2024
+
 15. A Tighter Convergence Proof of Reverse Experience Replay.\\
 **Nan Jiang**, Jinzhao Li, Yexiang Xue.\\
 The first Reinforcement Learning Conference (RLC) 2024. [(paper)](https://rlj.cs.umass.edu/2024/papers/Paper50.html)
@@ -65,6 +74,8 @@ AAAI 2024.  [(paper)](https://arxiv.org/abs/2309.08883) [(poster)](/static/aaai2
 **Nan Jiang**, Yexiang Xue. \\
 AAAI 2024.  [(paper)](https://arxiv.org/abs/2309.07934) [(poster)](/static/aaai24_racing_poster.pdf) [(code)](https://bitbucket.org/xlnxyx/racing_cvgp/src/master/)
 
+### 2023
+
 11. Symbolic Regression via Control Variable Genetic Programming. \\
 **Nan Jiang**, Yexiang Xue. \\
 ECML-PKDD 2023.  [(paper)](https://link.springer.com/chapter/10.1007/978-3-031-43421-1_11) [(poster)](/static/ecml2023_poster.pdf) [(slides)](/static/ecml2023_slides.pdf) [(code)](https://github.com/jiangnanhugo/cvgp)
@@ -73,6 +84,7 @@ ECML-PKDD 2023.  [(paper)](https://link.springer.com/chapter/10.1007/978-3-031-4
 **Nan Jiang**, Yi Gu, Yexiang Xue. (The first two authors contributed equally) \\
 AAAI 2023. [(paper)](https://ojs.aaai.org/index.php/AAAI/article/view/25516/25288) [(poster)](/static/aaai2023_poster.pdf) [(slides)](/static/aaai23_slides.pdf) [(code)](https://github.com/jiangnanhugo/nelson-cd)
 
+### 2022
 
 9. Constraint Reasoning Embedded in Structural Prediction.\\
 **Nan Jiang**, Maosen Zhang, Willem-Jan van Hoeve, Yexiang Xue. \\
@@ -82,10 +94,13 @@ JMLR 2022. [(paper)](https://www.jmlr.org/papers/volume23/21-1484/21-1484.pdf) [
 **Nan Jiang**, Chen Luo, Vihan Lakshman, Yesh Dattatreya, Yexiang Xue. \\
 TheWebConf 2022. [(paper)](https://dl.acm.org/doi/pdf/10.1145/3485447.3512015) [(slides)](/static/www2022_slides.pdf) [(code)](https://bitbucket.org/jiang631/lsh_norm/src/master/)
 
+### 2021
+
 7. PALM: Probabilistic Area Loss Minimization for Protein Sequence Alignment.\\
 **Nan Jiang**, Fan Ding, Jianzhu Ma, Jian Peng, Jinbo Xu, and Yexiang Xue. (The first two authors contributed equally) \\
 UAI 2021. [(paper)](https://proceedings.mlr.press/v161/ding21c/ding21c.pdf) [(poster)](/static/UAI21_poster.pdf) [(slides)](/static/uai21_slides.pdf)  [(code)](https://github.com/jiangnanhugo/PALM)
 
+### 2020
 6. Language Generation via Combinatorial Constraint Satisfaction: A Tree Search Enhanced Monte-Carlo Approach. \\
 Maosen Zhang, **Nan Jiang**, Lei Li, and Yexiang Xue. \\
 Finding in EMNLP 2020. [(paper)](https://aclanthology.org/2020.findings-emnlp.115.pdf) [(poster)](/static/EMNLP2020_poster.pdf) [(code)](https://github.com/Milozms/TSMH)
@@ -93,6 +108,8 @@ Finding in EMNLP 2020. [(paper)](https://aclanthology.org/2020.findings-emnlp.11
 5. A dual channel class hierarchy-based recurrent language modeling.\\
 Libin Shi, Wenge Rong, Shijie Zhou, **Nan Jiang**, Zhang Xiong.  \\
 Neurocomputing 2020.
+
+### Older Papers
 
 4. LSDSCC: A Large Scale Domain-Specific Conversational Corpus for Response Generation with Diversity Oriented Evaluation Metrics. \\
 Zhen Xu, **Nan Jiang** and et. al.\\
@@ -109,3 +126,6 @@ IEEE/ACM Transactions on Computational Biology and Bioinformatics, 2017. [(paper
 1. An Empirical Analysis of Different Sparse Penalties for Autoencoder in Unsupervised Feature Learning.\\
 **Nan Jiang**, Wenge Rong, Baolin Peng, Yifan Nie, Zhang Xiong. \\
 IJCNN, 2015. [(paper)](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7280568) [(code)](https://github.com/jiangnanhugo/Undergraduate_Design/tree/master/Self-Taught-Learning)
+
+
+## Open Source
