@@ -26,10 +26,9 @@ classes: wide
 
 ---
 <nav style="display: flex; justify-content: space-around; text-transform: uppercase;">
-  <a href="#Research Highlights">Research Highlights</a> 
+  <a href="#research-highlights">Research Highlights</a> 
   <a href="#publications">PUBLICATIONS</a> 
-  <a href="#open source">Open-Source</a> 
-  <a href="#contact">Contact</a>
+  <a href="#open-source">Open-Source</a>
 </nav>
 ---
 
