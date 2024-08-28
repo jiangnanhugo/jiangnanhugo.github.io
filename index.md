@@ -58,11 +58,11 @@ CORE also generates designs that satisfy complex user specifications as well as 
 
 15. [A Tighter Convergence Proof of Reverse Experience Replay](https://rlj.cs.umass.edu/2024/papers/Paper50.html).\\
 **Nan Jiang**, Jinzhao Li, Yexiang Xue.\\
-The first Reinforcement Learning Conference (RLC) 2024.
+The first Reinforcement Learning Conference (RLC) 2024. [(poster)](/static/rlc24_poster.pdf) [(slides)](/static/rlc24_slides.pdf) [(code)](https://github.com/jiangnanhugo/RER-proof)
 
 1.  [Vertical Symbolic Regression via Deep Policy Gradient](https://arxiv.org/pdf/2402.00254).\\
 **Nan Jiang**, Md Nasim, Yexiang Xue.\\
-IJCAI 2024. 
+IJCAI 2024. [(poster)](/static/ijcai24_poster.pdf) [(slides)](/static/ijcai24_slides.pdf) [(code)](https://github.com/jiangnanhugo/VSR-DPG)
 
 1.  [Solving Satisfiability Modulo Counting for Symbolic and Statistical AI Integration with Provable Guarantees](https://arxiv.org/abs/2309.08883).\\
 Jinzhao Li, **Nan Jiang** and Yexiang Xue.\\
@@ -71,7 +71,7 @@ AAAI 2024. [(poster)](/static/aaai24_smc_poster.pdf) [(code)](https://github.com
 
 1. [Racing Control Variable Genetic Programming for Symbolic Regression](https://arxiv.org/abs/2309.07934). \\
 **Nan Jiang**, Yexiang Xue. \\
-AAAI 2024.  [(poster)](/static/aaai24_racing_poster.pdf) [(code)](https://bitbucket.org/xlnxyx/racing_cvgp/src/master/)
+AAAI 2024.  [(poster)](/static/aaai24_racing_poster.pdf) [(slides)](/static/aaai24_slides.pdf) [(code)](https://bitbucket.org/xlnxyx/racing_cvgp/src/master/)
 
 ### 2023
 
