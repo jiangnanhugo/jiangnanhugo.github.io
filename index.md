@@ -28,12 +28,16 @@ classes: wide
 
 
 <nav class="navbar" style="display: flex; font-size: 16px; justify-content: space-around; text-transform: uppercase;">
-  <a href="/">Home</a> 
-  <a href="#about-me">About me</a> 
-  <a href="#research-highlights">Research Highlights</a> 
-  <a href="#publications">PUBLICATIONS</a> 
-  <a href="#open-source">Open-Source</a>
+<ul>
+  <li><a href="/">Home</a> </li>
+  <li><a href="#about-me">About me</a> </li>
+  <li><a href="#research-highlights">Research Highlights</a> </li>
+  <li><a href="#publications">PUBLICATIONS</a> </li>
+  <li><a href="#open-source">Open-Source</a></li>
+</ul>
 </nav>
+
+
 
 <br>
 

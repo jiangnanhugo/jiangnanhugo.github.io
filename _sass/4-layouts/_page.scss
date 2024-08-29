@@ -98,3 +98,27 @@
     margin-bottom: 32px;
   }
 }
+
+// 
+
+.navbar {
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style-type: none; /* Removes the bullet points */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  padding: 8px 16px;
+}
+
