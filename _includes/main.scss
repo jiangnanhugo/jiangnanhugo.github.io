@@ -26,9 +26,6 @@
     3.3-Pagination
     3.4-Footer
     3.5-Gallery
-    3.6-Section-Hero
-    3.7-Section-Portfolio
-    3.8-Section-Subscribe
     3.9-Sections
     3.10-Article
     3.11-Contact
@@ -80,20 +77,11 @@
 @import '3-modules/pagination';
 /* >>>>>>>>>>>>>> :: 3.4-Footer <<<<<<<<<<<<<<< */
 @import '3-modules/footer';
-/* >>>>>>>>>>>>>> :: 3.5-Gallery <<<<<<<<<<<<<<< */
-@import '3-modules/gallery';
-/* >>>>>>>>>>>>>> :: 3.9-Sections <<<<<<<<<<<<<<< */
-@import '3-modules/sections';
-/* >>>>>>>>>>>>>> :: 3.10-Article <<<<<<<<<<<<<<< */
-@import '3-modules/article';
-/* >>>>>>>>>>>>>> :: 3.11-Contact <<<<<<<<<<<<<<< */
-@import '3-modules/contact';
 
 
-/* =======================
-:: 4-Layouts
-======================= */
-/* >>>>>>>>>>>>>> :: 4.1-Post <<<<<<<<<<<<<<< */
+
+// /* =======================
+// :: 4-Layouts
+// ======================= */
+// /* >>>>>>>>>>>>>> :: 4.1-Post <<<<<<<<<<<<<<< */
 @import '4-layouts/post';
-/* >>>>>>>>>>>>>> :: 4.2-Tags Page <<<<<<<<<<<<<<< */
-@import '4-layouts/tags-page';

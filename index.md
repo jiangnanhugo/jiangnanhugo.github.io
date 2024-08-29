@@ -28,14 +28,22 @@ classes: wide
 
 
 <nav class="navbar" style="display: flex; font-size: 16px; justify-content: space-around; text-transform: uppercase;">
+  <a href="#about-me">About me</a> 
   <a href="#research-highlights">Research Highlights</a> 
   <a href="#publications">PUBLICATIONS</a> 
   <a href="#open-source">Open-Source</a>
 </nav>
 
-
 <br>
 
+---
+## About Me
+
+My name is Nan Jiang (姜楠). I'm a PhD candidate at the Department of Computer Science, at Purdue University. 
+I am fortunate to be supervised by Professor [Yexiang Xue](https://www.cs.purdue.edu/homes/yexiang/). My PhD research focuses on Machine Learning with Constraint Reasoning and symbolic regression for scientific discovery. 
+<br>
+
+---
 ## Research Highlights
 
 ### AI-driven Scientific Discovery
@@ -53,7 +61,7 @@ classes: wide
 CORE also generates designs that satisfy complex user specifications as well as meet aesthetics, utility, and convenience requirements.
 
 
-
+---
 ## Publications
 
 ### 2024
@@ -136,3 +144,4 @@ IEEE/ACM Transactions on Computational Biology and Bioinformatics, 2017. \\
 **Nan Jiang**, Wenge Rong, Baolin Peng, Yifan Nie, Zhang Xiong. \\
 IJCNN, 2015. [(code)](https://github.com/jiangnanhugo/Undergraduate_Design/tree/master/Self-Taught-Learning)
 
+## Open Source
