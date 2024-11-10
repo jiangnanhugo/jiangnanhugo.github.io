@@ -73,6 +73,7 @@ CORE also generates designs that satisfy complex user specifications as well as 
 
 1. [Active Symbolic Discovery of Ordinary Differential Equations via Phase Portrait Sketching](https://arxiv.org/pdf/2409.01416).\\
 **Nan Jiang**, Md Nasim, Yexiang Xue.\\
+Arxiv.\\
 [code](https://github.com/jiangnanhugo/APPS-ODE/)
 
 ### 2024
