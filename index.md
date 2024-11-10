@@ -69,9 +69,15 @@ CORE also generates designs that satisfy complex user specifications as well as 
 ---
 ## Publications
 
+### 2025
+
+1. [Active Symbolic Discovery of Ordinary Differential Equations via Phase Portrait Sketching](https://arxiv.org/pdf/2409.01416).\\
+**Nan Jiang**, Md Nasim, Yexiang Xue.\\
+[code](https://github.com/jiangnanhugo/APPS-ODE/)
+
 ### 2024
 
-15. [A Tighter Convergence Proof of Reverse Experience Replay](https://rlj.cs.umass.edu/2024/papers/Paper50.html).\\
+1. [A Tighter Convergence Proof of Reverse Experience Replay](https://rlj.cs.umass.edu/2024/papers/Paper50.html).\\
 **Nan Jiang**, Jinzhao Li, Yexiang Xue.\\
 The first Reinforcement Learning Conference (RLC) 2024. \\
 [(poster)](/static/rlc24_poster.pdf) [(slides)](/static/rlc24_slides.pdf) [(code)](https://github.com/jiangnanhugo/RER-proof)
@@ -91,7 +97,7 @@ AAAI 2024.  [(poster)](/static/aaai24_racing_poster.pdf) [(slides)](/static/aaai
 
 ### 2023
 
-11. [Symbolic Regression via Control Variable Genetic Programming](https://link.springer.com/chapter/10.1007/978-3-031-43421-1_11). \\
+1. [Symbolic Regression via Control Variable Genetic Programming](https://link.springer.com/chapter/10.1007/978-3-031-43421-1_11). \\
 **Nan Jiang**, Yexiang Xue. \\
 ECML-PKDD 2023. \\
 [(poster)](/static/ecml2023_poster.pdf) [(slides)](/static/ecml2023_slides.pdf) [(code)](https://github.com/jiangnanhugo/cvgp)
@@ -103,7 +109,7 @@ AAAI 2023. \\
 
 ### 2022
 
-9. [Constraint Reasoning Embedded in Structural Prediction](https://www.jmlr.org/papers/volume23/21-1484/21-1484.pdf).\\
+1. [Constraint Reasoning Embedded in Structural Prediction](https://www.jmlr.org/papers/volume23/21-1484/21-1484.pdf).\\
 **Nan Jiang**, Maosen Zhang, Willem-Jan van Hoeve, Yexiang Xue. \\
 JMLR 2022. \\
 [(poster)](/static/jmlr21_poster.pdf) [(code)](https://jiangnanhugo.github.io/CORE-SP/)
@@ -115,13 +121,13 @@ TheWebConf 2022. \\
 
 ### 2021
 
-7. [PALM: Probabilistic Area Loss Minimization for Protein Sequence Alignment](https://proceedings.mlr.press/v161/ding21c/ding21c.pdf).\\
+1. [PALM: Probabilistic Area Loss Minimization for Protein Sequence Alignment](https://proceedings.mlr.press/v161/ding21c/ding21c.pdf).\\
 **Nan Jiang**\*, Fan Ding\*, Jianzhu Ma, Jian Peng, Jinbo Xu, and Yexiang Xue. \\
 UAI 2021. \\
 [(poster)](/static/UAI21_poster.pdf) [(slides)](/static/uai21_slides.pdf)  [(code)](https://github.com/jiangnanhugo/PALM)
 
 ### 2020
-6. [Language Generation via Combinatorial Constraint Satisfaction: A Tree Search Enhanced Monte-Carlo Approach](https://aclanthology.org/2020.findings-emnlp.115.pdf). \\
+1. [Language Generation via Combinatorial Constraint Satisfaction: A Tree Search Enhanced Monte-Carlo Approach](https://aclanthology.org/2020.findings-emnlp.115.pdf). \\
 Maosen Zhang, **Nan Jiang**, Lei Li, and Yexiang Xue. \\
 Finding in EMNLP 2020. \\
 [(poster)](/static/EMNLP2020_poster.pdf) [(code)](https://github.com/Milozms/TSMH)
@@ -132,7 +138,7 @@ Neurocomputing 2020.
 
 ### Older Papers
 
-4. [LSDSCC: A Large Scale Domain-Specific Conversational Corpus for Response Generation with Diversity Oriented Evaluation Metrics](https://aclanthology.org/N18-1188.pdf). \\
+1. [LSDSCC: A Large Scale Domain-Specific Conversational Corpus for Response Generation with Diversity Oriented Evaluation Metrics](https://aclanthology.org/N18-1188.pdf). \\
 Zhen Xu, **Nan Jiang** and et. al.\\
 NAACL-HLT 2018.
 
