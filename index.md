@@ -33,7 +33,6 @@ classes: wide
   <li><a href="#about-me">About me</a> </li>
   <li><a href="#research-highlights">Research Highlights</a> </li>
   <li><a href="#publications">PUBLICATIONS</a> </li>
-  <li><a href="#open-source">Open-Source</a></li>
 </ul>
 </nav>
 
@@ -78,7 +77,7 @@ Arxiv.\\
 
 1. [An Exact Solver for Satisfiability Modulo Counting with Probabilistic Circuits.]() \\
 Jinzhao Li, **Nan Jiang**, Yexiang Xue.\\
-Arxiv.\\
+Arxiv.
 
 ### 2024
 
@@ -89,16 +88,19 @@ The first Reinforcement Learning Conference (RLC) 2024. \\
 
 1.  [Vertical Symbolic Regression via Deep Policy Gradient](https://arxiv.org/pdf/2402.00254).\\
 **Nan Jiang**, Md Nasim, Yexiang Xue.\\
-IJCAI 2024. [(poster)](/static/ijcai24_poster.pdf) [(slides)](/static/ijcai24_slides.pdf) [(code)](https://github.com/jiangnanhugo/VSR-DPG)
+IJCAI 2024. \\
+[(poster)](/static/ijcai24_poster.pdf) [(slides)](/static/ijcai24_slides.pdf) [(code)](https://github.com/jiangnanhugo/VSR-DPG)
 
 1.  [Solving Satisfiability Modulo Counting for Symbolic and Statistical AI Integration with Provable Guarantees](https://arxiv.org/abs/2309.08883).\\
 Jinzhao Li, **Nan Jiang** and Yexiang Xue.\\
-AAAI 2024. [(poster)](/static/aaai24_smc_poster.pdf) [(code)](https://github.com/jil016/xor-smc)
+AAAI 2024. \\
+[(poster)](/static/aaai24_smc_poster.pdf) [(code)](https://github.com/jil016/xor-smc)
 
 
 1. [Racing Control Variable Genetic Programming for Symbolic Regression](https://arxiv.org/abs/2309.07934). \\
 **Nan Jiang**, Yexiang Xue. \\
-AAAI 2024.  [(poster)](/static/aaai24_racing_poster.pdf) [(slides)](/static/aaai24_slides.pdf) [(code)](https://bitbucket.org/xlnxyx/racing_cvgp/src/master/)
+AAAI 2024. \\
+ [(poster)](/static/aaai24_racing_poster.pdf) [(slides)](/static/aaai24_slides.pdf) [(code)](https://bitbucket.org/xlnxyx/racing_cvgp/src/master/)
 
 ### 2023
 
