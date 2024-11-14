@@ -52,9 +52,9 @@ I am fortunate to be supervised by Professor [Yexiang Xue](https://www.cs.purdue
 
 ### AI-driven Scientific Discovery
 
-- We propose an end-to-end framework to learn physics models in the form of Partial Differential Equations (PDEs) directly from the experiment data.
+- We propose an end-to-end framework to learn physics knowledge in the form of Ordinary Differential Equation (ODE) directly from the experiment data.
 - We scale up learning first-principle models harnessing randomized algorithms, exploiting the fact that the temporal evolutions of many physical systems often consist of gradually changing updates across wide areas in addition to a few rapid updates concentrated in a small set of “interfacial” regions.
-- The development of AI-driven scientific discovery approaches was motivated by the real-world application of learning the physics model of nano-scale crystalline defects in materials under extreme conditions.
+- The development of AI-driven scientific discovery approaches was motivated by the scientist experiment process using control variable experiments
 
 
 ### Constraint Reasoning Embedded in Machine Learning
