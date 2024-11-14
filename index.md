@@ -76,6 +76,10 @@ CORE also generates designs that satisfy complex user specifications as well as 
 Arxiv.\\
 [code](https://github.com/jiangnanhugo/APPS-ODE/)
 
+1. [An Exact Solver for Satisfiability Modulo Counting with Probabilistic Circuits.]() \\
+Jinzhao Li, **Nan Jiang**, Yexiang Xue.\\
+Arxiv.\\
+
 ### 2024
 
 1. [A Tighter Convergence Proof of Reverse Experience Replay](https://rlj.cs.umass.edu/2024/papers/Paper50.html).\\
