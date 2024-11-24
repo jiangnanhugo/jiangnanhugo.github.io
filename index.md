@@ -100,7 +100,7 @@ AAAI 2024. \\
 1. [Racing Control Variable Genetic Programming for Symbolic Regression](https://arxiv.org/abs/2309.07934). \\
 **Nan Jiang**, Yexiang Xue. \\
 AAAI 2024. \\
- [(poster)](/static/aaai24_racing_poster.pdf) [(slides)](/static/aaai24_slides.pdf) [(code)](https://bitbucket.org/xlnxyx/racing_cvgp/src/master/)
+ [(poster)](/static/aaai24_racing_poster.pdf) [(slides)](/static/aaai24_slides.pdf) [(video)](https://underline.io/lecture/91815-racing-control-variable-genetic-programming-for-symbolic-regression) [(code)](https://bitbucket.org/xlnxyx/racing_cvgp/src/master/)
 
 ### 2023
 
@@ -124,7 +124,7 @@ JMLR 2022. \\
 1. [Massive Text Normalization via an Efficient Randomized Algorithm](https://dl.acm.org/doi/pdf/10.1145/3485447.3512015).\\
 **Nan Jiang**, Chen Luo, Vihan Lakshman, Yesh Dattatreya, Yexiang Xue. \\
 TheWebConf 2022. \\
-[(slides)](/static/www2022_slides.pdf) [(code)](https://bitbucket.org/jiang631/lsh_norm/src/master/)
+[(slides)](/static/www2022_slides.pdf) [(video)](https://www.youtube.com/watch?v=gp-5DXv6IcU) [(code)](https://bitbucket.org/jiang631/lsh_norm/src/master/)
 
 ### 2021
 
