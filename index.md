@@ -162,4 +162,3 @@ IEEE/ACM Transactions on Computational Biology and Bioinformatics, 2017. \\
 **Nan Jiang**, Wenge Rong, Baolin Peng, Yifan Nie, Zhang Xiong. \\
 IJCNN, 2015. [(code)](https://github.com/jiangnanhugo/Undergraduate_Design/tree/master/Self-Taught-Learning)
 
-## Open Source
