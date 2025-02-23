@@ -74,9 +74,9 @@ CORE also generates designs that satisfy complex user specifications as well as 
 1. [Active Symbolic Discovery of Ordinary Differential Equations via Phase Portrait Sketching](https://arxiv.org/pdf/2409.01416).\\
 **Nan Jiang**, Md Nasim, Yexiang Xue.\\
 AAAI 2025.\\
-[(poster)](/static/aaai24_poster.pdf) [code](https://github.com/jiangnanhugo/APPS-ODE/) 
+[(poster)](/static/aaai24_poster.pdf) [(code)](https://github.com/jiangnanhugo/APPS-ODE/) 
 
-1. [An Exact Solver for Satisfiability Modulo Counting with Probabilistic Circuits.]() \\
+1. [An Exact Solver for Satisfiability Modulo Counting with Probabilistic Circuits.](https://openreview.net/pdf?id=AmEN51cTKW) \\
 Jinzhao Li, **Nan Jiang**, Yexiang Xue.\\
 Arxiv.
 
