@@ -117,7 +117,7 @@ AAAI 2023. \\
 
 ### 2022
 
-1. [Constraint Reasoning Embedded in Structural Prediction](https://www.jmlr.org/papers/volume23/21-1484/21-1484.pdf).\\
+1. [Constraint Reasoning Embedded Structured Prediction](https://www.jmlr.org/papers/volume23/21-1484/21-1484.pdf).\\
 **Nan Jiang**, Maosen Zhang, Willem-Jan van Hoeve, Yexiang Xue. \\
 JMLR 2022. \\
 [(poster)](/static/jmlr21_poster.pdf) [(code)](https://jiangnanhugo.github.io/CORE-SP/)
