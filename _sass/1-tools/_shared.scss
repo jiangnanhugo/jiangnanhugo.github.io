@@ -1,3 +1,4 @@
+@use '0-settings/variables' as vars;
 /**
  * Shared declarations for certain elements.
  */
@@ -16,10 +17,9 @@ pre {
 /**
  * Consistent indentation for lists.
  */
-
 ul, ol,
 dd {
-  margin-left: $base-spacing-unit;
+  margin-left: vars.$base-spacing-unit;
 }
 
 ul, ol {

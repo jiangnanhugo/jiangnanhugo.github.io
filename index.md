@@ -15,21 +15,19 @@ classes: wide
     <p>
           PhD Candidate
           <br>
-          <a href="https://cs.purdue.edu/">Computer Science Department</a>
-          <br>
-          <a href="https://purdue.edu/">Purdue University, Indiana</a> 
-          <br>
+          <a href="https://cs.purdue.edu/">Department of Computer Science, Purdue University </a>
+          
+          
           <br>
           <strong>Research Interests:</strong> Reasoning for Machine Learning and scientific discovery. 
           <p>Contacts: <a href="mailto:jiang631@purdue.edu">Email</a> / <a href="/images/CV.pdf">CV</a> / <a href="https://scholar.google.com/citations?user=AiMRnWUAAAAJ&amp;hl=en">Google Scholar</a> / <a href="https://www.linkedin.com/in/jiangnanhugo/">LinkedIn</a></p>
         </p>
-        <br>
-        <br>
-        <strong>⭐️ I am on the 2024-2025 job market!</strong>
+        
+        <strong style='color:red;'>⭐️ I am on the 2024-2025 job market!</strong>
   </div>
 </div>
 
-
+<br>
 <nav class="navbar" style="display: flex; font-size: 16px; justify-content: space-around; text-transform: uppercase;">
 <ul>
   <li><a href="/">Home</a> </li>

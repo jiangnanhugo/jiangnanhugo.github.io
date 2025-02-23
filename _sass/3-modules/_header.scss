@@ -1,3 +1,5 @@
+@use "0-settings/variables" as vars;
+@use "1-tools/grid" as grid;
 /* Header */
 .header {
   .header__inner {
@@ -5,10 +7,10 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    padding: 60px $base-spacing-unit;
+    padding: 60px vars.$base-spacing-unit;
   
-    @media only screen and (max-width: $tablet) {
-      padding: 40px $base-spacing-unit;
+    @media only screen and (max-width: grid.$tablet) {
+      padding: 40px vars.$base-spacing-unit;
     }
   }
 }
@@ -16,7 +18,7 @@
 /* Logo */
 .logo__link {
   padding: 4px 0;
-  font-family: $heading-font-family;
+  font-family: vars.$heading-font-family;
   font-size: 36px;
   letter-spacing: -1px;
   line-height: 1;
@@ -27,7 +29,7 @@
     color: var(--heading-font-color);
   }
 
-  @media only screen and (max-width: $mobile) {
+  @media only screen and (max-width: grid.$mobile) {
     font-size: 32px;
   }
 }
@@ -40,7 +42,7 @@
 .main-nav {
   margin-left: auto;
 
-  @media only screen and (max-width: $desktop) {
+  @media only screen and (max-width: grid.$desktop) {
     position: fixed;
     top: 0;
     left: 0;
@@ -113,7 +115,7 @@
     }
 
     .ion-md-close {
-      transition: $global-transition;
+      transition: vars.$global-transition;
     }
   }
 
@@ -121,7 +123,7 @@
     display: none;
   }
 
-  @media only screen and (max-width: $desktop) {
+  @media only screen and (max-width: grid.$desktop) {
     display: block;
 
     align-items: center;
@@ -142,7 +144,7 @@
     .nav__title {
       display: inline-block;
       margin-bottom: 20px;
-      font-family: $heading-font-family;
+      font-family: vars.$heading-font-family;
       font-size: 30px;
       font-weight: 500;
       letter-spacing: -1px;
@@ -150,7 +152,7 @@
     }
   }
 
-  @media only screen and (max-width: $tablet) {
+  @media only screen and (max-width: grid.$tablet) {
     padding-top: 100px;
   }
 }
@@ -217,14 +219,14 @@
   cursor: pointer;
 
   .nav__icon {
-    transition: $global-transition;
+    transition: vars.$global-transition;
   }
 
   .nav__icon-menu {
     display: none;
   }
 
-  @media only screen and (max-width: $desktop) {
+  @media only screen and (max-width: grid.$desktop) {
     margin-left: auto;
     font-size: 26px;
 
@@ -245,7 +247,7 @@
   user-select: none;
   cursor: pointer;
 
-  @media only screen and (max-width: $desktop) {
+  @media only screen and (max-width: grid.$desktop) {
     padding: 20px 0;
   }
 }
@@ -255,7 +257,7 @@
   position: absolute;
   font-size: 20px;
   color: var(--heading-font-color);
-  transition: $global-transition;
+  transition: vars.$global-transition;
 }
 
 .toggle-sun {

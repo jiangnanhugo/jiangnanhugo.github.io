@@ -1,3 +1,4 @@
+@use "1-tools/grid" as grid;
 .top {
   position: fixed;
   bottom: 36px;
@@ -19,7 +20,7 @@
   }
 }
 
-@media only screen and (max-width: $desktop) {
+@media only screen and (max-width: grid.$desktop) {
   .top {
     bottom: 24px;
 

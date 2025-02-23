@@ -1,8 +1,10 @@
+@use "0-settings/variables" as vars;
+@use "1-tools/grid" as grid;
 /* Pagination */
 .pagination {
   margin: 40px 0 160px;
 
-  @media only screen and (max-width: $mobile) {
+  @media only screen and (max-width: grid.$mobile) {
     margin: 40px 0 80px;
   }
 }
@@ -24,7 +26,7 @@
   text-transform: uppercase;
   color: var(--text-color);
 
-  @media only screen and (max-width: $mobile) {
+  @media only screen and (max-width: grid.$mobile) {
     align-items: stretch;
     font-size: 14px;
   }
@@ -39,7 +41,7 @@
   border-radius: 16px;
   background: var(--background-alt-color);
 
-  @media only screen and (max-width: $mobile) {
+  @media only screen and (max-width:grid.$mobile) {
     align-items: center;
     padding: 20px;
     border-radius: 8px;
@@ -51,11 +53,11 @@
   font-size: 14px;
   color: var(--text-alt-color);
 
-  @media only screen and (max-width: $desktop) {
+  @media only screen and (max-width: grid.$desktop) {
     margin: 0 16px;
   }
 
-  @media only screen and (max-width: $tablet) {
+  @media only screen and (max-width: grid.$tablet) {
     margin: 0 12px;
   }
 }

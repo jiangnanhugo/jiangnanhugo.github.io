@@ -1,8 +1,10 @@
+@use "0-settings/variables" as vars;
+@use "1-tools/grid" as grid;
 /* Footer */
 .footer {
   margin: 80px 0 68px;
 
-  @media only screen and (max-width: $mobile) {
+  @media only screen and (max-width: grid.$mobile) {
     margin: 80px 0 48px;
   }
 }
@@ -38,7 +40,7 @@
     }
   }
 
-  @media only screen and (max-width: $tablet) {
+  @media only screen and (max-width: grid.$tablet) {
     .social__item {
       margin-right: 24px;
     }
@@ -48,7 +50,7 @@
     }
   }
 
-  @media only screen and (max-width: $mobile) {
+  @media only screen and (max-width: grid.$mobile) {
     .social__item {
       margin-right: 16px;
     }

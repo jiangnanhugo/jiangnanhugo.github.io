@@ -1,3 +1,4 @@
+@use "1-tools/grid" as grid;
 /* Post + Page */
 
 .page {
@@ -36,12 +37,12 @@
   margin: 96px auto 48px;
   text-align: center;
 
-  @media only screen and (max-width: $desktop) {
+  @media only screen and (max-width: grid.$desktop) {
     max-width: 100%;
     margin: 40px auto;
   }
 
-  @media only screen and (max-width: $mobile) {
+  @media only screen and (max-width: grid.$mobile) {
     margin: 40px auto 32px;
   }
 }
@@ -56,11 +57,11 @@
     font-size: 64px;
   }
 
-  @media only screen and (max-width: $desktop) {
+  @media only screen and (max-width: grid.$desktop) {
     font-size: 48px;
   }
 
-  @media only screen and (max-width: $mobile) {
+  @media only screen and (max-width: grid.$mobile) {
     margin-bottom: 24px;
     font-size: 32px;
   }
@@ -89,11 +90,11 @@
     user-select: none;
   }
   
-  @media only screen and (max-width: $desktop) {
+  @media only screen and (max-width: grid.$desktop) {
     margin-bottom: 40px;
   }
 
-  @media only screen and (max-width: $mobile) {
+  @media only screen and (max-width: grid.$mobile) {
     padding-top: 62%;
     margin-bottom: 32px;
   }
