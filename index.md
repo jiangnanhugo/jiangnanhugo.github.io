@@ -23,6 +23,9 @@ classes: wide
           <strong>Research Interests:</strong> Reasoning for Machine Learning and scientific discovery. 
           <p>Contacts: <a href="mailto:jiang631@purdue.edu">Email</a> / <a href="/images/CV.pdf">CV</a> / <a href="https://scholar.google.com/citations?user=AiMRnWUAAAAJ&amp;hl=en">Google Scholar</a> / <a href="https://www.linkedin.com/in/jiangnanhugo/">LinkedIn</a></p>
         </p>
+        <br>
+        <br>
+        <strong>⭐️ I am on the 2024-2025 job market!</strong>
   </div>
 </div>
 
@@ -73,7 +76,7 @@ CORE also generates designs that satisfy complex user specifications as well as 
 1. [Active Symbolic Discovery of Ordinary Differential Equations via Phase Portrait Sketching](https://arxiv.org/pdf/2409.01416).\\
 **Nan Jiang**, Md Nasim, Yexiang Xue.\\
 AAAI 2025.\\
-[code](https://github.com/jiangnanhugo/APPS-ODE/)
+[(poster)](/static/aaai24_poster.pdf) [code](https://github.com/jiangnanhugo/APPS-ODE/) 
 
 1. [An Exact Solver for Satisfiability Modulo Counting with Probabilistic Circuits.]() \\
 Jinzhao Li, **Nan Jiang**, Yexiang Xue.\\
