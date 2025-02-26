@@ -16,8 +16,8 @@ classes: wide
           PhD Candidate
           <br>
           <a href="https://cs.purdue.edu/">Department of Computer Science, Purdue University </a>
-          
-          
+
+​          
           <br>
           <strong>Research Interests:</strong> Reasoning for Machine Learning and scientific discovery. 
           <p>Contacts: <a href="mailto:jiang631@purdue.edu">Email</a> / <a href="/images/CV.pdf">CV</a> / <a href="https://scholar.google.com/citations?user=AiMRnWUAAAAJ&amp;hl=en">Google Scholar</a> / <a href="https://www.linkedin.com/in/jiangnanhugo/">LinkedIn</a></p>
@@ -113,7 +113,7 @@ ECML-PKDD 2023. \\
 1.  [Learning Markov Random Fields for Combinatorial Structures via Sampling through Lovász Local Lemma](https://ojs.aaai.org/index.php/AAAI/article/view/25516/25288). \\
 **Nan Jiang**\*, Yi Gu\*, Yexiang Xue. \\
 AAAI 2023. \\
-[(poster)](/static/aaai2023_poster.pdf) [(slides)](/static/aaai23_slides.pdf) [(code)](https://github.com/jiangnanhugo/nelson-cd)
+[(poster)](/static/aaai2023_poster.pdf) [(slides)](/static/aaai23_slides.pdf) [(code)](https://github.com/jiangnanhugo/nelson-cd) [(CPML@AAAI2025)](/static/cpml_aaai2025.pdf)
 
 ### 2022
 
