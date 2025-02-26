@@ -113,7 +113,7 @@ ECML-PKDD 2023. \\
 1.  [Learning Markov Random Fields for Combinatorial Structures via Sampling through Lovász Local Lemma](https://ojs.aaai.org/index.php/AAAI/article/view/25516/25288). \\
 **Nan Jiang**\*, Yi Gu\*, Yexiang Xue. \\
 AAAI 2023. \\
-[(poster)](/static/aaai2023_poster.pdf) [(slides)](/static/aaai23_slides.pdf) [(code)](https://github.com/jiangnanhugo/nelson-cd) [(CPML@AAAI2025)](/static/cpml_aaai2025.pdf)
+[(poster)](/static/aaai2023_poster.pdf) [(slides)](/static/aaai23_slides.pdf) [(code)](https://github.com/jiangnanhugo/nelson-cd) [(CPML@AAAI2025)](/static/CPML_AAAI2025.pdf)
 
 ### 2022
 
