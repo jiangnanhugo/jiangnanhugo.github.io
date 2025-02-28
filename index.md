@@ -140,7 +140,7 @@ Maosen Zhang, **Nan Jiang**, Lei Li, and Yexiang Xue. \\
 Finding in EMNLP 2020. \\
 [(poster)](/static/EMNLP2020_poster.pdf) [(code)](https://github.com/Milozms/TSMH)
 
-1. A dual channel class hierarchy-based recurrent language modeling.\\
+1. [A dual channel class hierarchy-based recurrent language modeling](https://www.sciencedirect.com/science/article/abs/pii/S0925231220313114).\\
 Libin Shi, Wenge Rong, Shijie Zhou, **Nan Jiang**, Zhang Xiong.  \\
 Neurocomputing 2020.
 
