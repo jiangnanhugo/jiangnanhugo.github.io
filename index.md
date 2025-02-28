@@ -16,8 +16,6 @@ classes: wide
           PhD Candidate
           <br>
           <a href="https://cs.purdue.edu/">Department of Computer Science, Purdue University </a>
-
-​          
           <br>
           <strong>Research Interests:</strong> Reasoning for Machine Learning and scientific discovery. 
           <p>Contacts: <a href="mailto:jiang631@purdue.edu">Email</a> / <a href="/images/CV.pdf">CV</a> / <a href="https://scholar.google.com/citations?user=AiMRnWUAAAAJ&amp;hl=en">Google Scholar</a> / <a href="https://www.linkedin.com/in/jiangnanhugo/">LinkedIn</a></p>
