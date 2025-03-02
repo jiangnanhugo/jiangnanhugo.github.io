@@ -78,6 +78,15 @@ AAAI 2025.\\
 Jinzhao Li, **Nan Jiang**, Yexiang Xue.\\
 Arxiv.
 
+1. Neuro-Symbolic Action Anticipation from a Single Image with Learned Probabilistic Rules. \\
+Muyang Yan, Maxwell J. Jacobson, **Nan Jiang**, Yaqi Xie, Simon Stepputtis, Katia Sycara, Yexiang Xue.\\
+Under Review.
+
+1. Enhancing Deep Symbolic Regression with Expression Rewriting Module. \\
+**Nan Jiang**, Ziyi Wang, Yexiang Xue.\\
+Under Review.
+
+
 ### 2024
 
 1. [A Tighter Convergence Proof of Reverse Experience Replay](https://rlj.cs.umass.edu/2024/papers/Paper50.html).\\
