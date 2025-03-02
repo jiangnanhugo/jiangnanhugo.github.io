@@ -1,8 +1,6 @@
 #-------------------------------
 # General Site Settings
 baseurl: "" # the subpath of your site, e.g. /blog
-# url: "https://indranugraha.com" # the base hostname & protocol for your site, e.g. http://example.com
-
 
 #-------------------------------
 # Build Settings
@@ -14,16 +12,16 @@ kramdown:
   auto_ids:       true
   toc_levels:     1..3
 
-math_engine: katex
-math_engine_opts: {}
+# math_engine: katex
+# math_engine_opts: {}
 
-permalink: /:title
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
+# permalink: /:title
+# plugins:
+#   - jekyll-paginate
+#   - jekyll-sitemap
 
-paginate: 5
-paginate_path: "/blog/page/:num"
+# paginate: 5
+# paginate_path: "/blog/page/:num"
 
 # Pages Path
 # defaults:
@@ -36,8 +34,8 @@ paginate_path: "/blog/page/:num"
 #     values:
 #       permalink: /blog/:slug
 
-include:
-  - _pages
+# include:
+#   - _pages
 
 sass:
   sass_dir: _sass
