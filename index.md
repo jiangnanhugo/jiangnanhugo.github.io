@@ -82,7 +82,7 @@ Arxiv.
 Muyang Yan, Maxwell J. Jacobson, **Nan Jiang**, Yaqi Xie, Simon Stepputtis, Katia Sycara, Yexiang Xue.\\
 Under Review.
 
-1. Enhancing Deep Symbolic Regression with Expression Rewriting Module. \\
+1. [Enhancing Deep Symbolic Regression with Expression Rewriting Module.](https://openreview.net/pdf?id=2CQa1VgO52) \\
 **Nan Jiang**, Ziyi Wang, Yexiang Xue.\\
 Under Review.
 
