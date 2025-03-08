@@ -74,7 +74,7 @@ CORE also generates designs that satisfy complex user specifications as well as 
 AAAI 2025.\\
 [(poster)](/static/aaai24_poster.pdf) [(code)](https://github.com/jiangnanhugo/APPS-ODE/) 
 
-1. [An Exact Solver for Satisfiability Modulo Counting with Probabilistic Circuits.](https://openreview.net/pdf?id=AmEN51cTKW) \\
+1. [An Exact Solver for Satisfiability Modulo Counting with Probabilistic Circuits.](https://arxiv.org/pdf/2503.01009) \\
 Jinzhao Li, **Nan Jiang**, Yexiang Xue.\\
 Arxiv.
 
@@ -161,7 +161,7 @@ NAACL-HLT 2018.
 **Nan Jiang**, Wenge Rong, Min Gao, Yikang Shen, Zhang Xiong. \\
 IJCAI 2017. [(code)](https://github.com/jiangnanhugo/lmkit)
 
-1. [Event Trigger Identification with Noise Contrastive Estimation](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7936538).\\
+1. [Biological Event Trigger Identification with Noise Contrastive Estimation](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7936538).\\
 **Nan Jiang**, Wenge Rong, Yifan Nie, Yikang Shen, and Zhang Xiong.  \\
 IEEE/ACM Transactions on Computational Biology and Bioinformatics, 2017. \\
 [(code)](https://github.com/jiangnanHugo/mlee-nce)
