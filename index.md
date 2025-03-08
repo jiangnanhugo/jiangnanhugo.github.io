@@ -17,10 +17,12 @@ classes: wide
           <br>
           <a href="https://cs.purdue.edu/">Department of Computer Science, Purdue University </a>
           <br>
-          <strong>Research Interests:</strong> Reasoning for Machine Learning and scientific discovery. 
+          <strong>Research Interests:</strong> Integrating Automated Reasoning with Machine Learning 
+for Structured Prediction and Scientific Discovery. 
           <p>Contacts: <a href="mailto:jiang631@purdue.edu">Email</a> / <a href="/images/CV.pdf">CV</a> / <a href="https://scholar.google.com/citations?user=AiMRnWUAAAAJ&amp;hl=en">Google Scholar</a> / <a href="https://www.linkedin.com/in/jiangnanhugo/">LinkedIn</a></p>
         </p>
-        
+
+
         <strong style='color:red;'>⭐️ I am on the 2024-2025 job market!</strong>
   </div>
 </div>
@@ -43,25 +45,22 @@ classes: wide
 ## About Me
 
 My name is Nan Jiang (姜楠). I'm a PhD candidate at the Department of Computer Science, at Purdue University. 
-I am fortunate to be supervised by Professor [Yexiang Xue](https://www.cs.purdue.edu/homes/yexiang/). My PhD research focuses on Machine Learning with Constraint Reasoning and symbolic regression for scientific discovery. 
+I am fortunate to be supervised by Professor [Yexiang Xue](https://www.cs.purdue.edu/homes/yexiang/). My PhD research focuses on Integrating Automated Reasoning with Machine Learning for Structured Prediction and Scientific Discovery.
 <br>
 
 ---
 ## Research Highlights
 
-### AI-driven Scientific Discovery
+### Reasoning + Learning to accelerate AI-driven Scientific Discovery
 
-- We propose an end-to-end framework to learn physics knowledge in the form of Ordinary Differential Equation (ODE) directly from the experiment data.
-- We scale up learning first-principle models harnessing randomized algorithms, exploiting the fact that the temporal evolutions of many physical systems often consist of gradually changing updates across wide areas in addition to a few rapid updates concentrated in a small set of “interfacial” regions.
-- The development of AI-driven scientific discovery approaches was motivated by the scientist experiment process using control variable experiments
+- Integrating scientific approach-inspired reasoning, my work accelerates the discovery of physical knowledge from experimental data. My approach significantly extended the capabilities of existing methods in solving datasets with multiple independent variables. 
+- My approach successfully discovers ground-truth scientific expressions involving up to 50 variables, whereas previous approaches struggle with equations of just three variables.
 
 
-### Constraint Reasoning Embedded in Machine Learning
+### Reasoning + Learning to ensure constraint satisfaction in machine learning 
 
-- We propose COnstraint REasoning embedded structured learning (CORE), a scalable constraint reasoning and machine learning integrated approach for learning over structured domains.
-- We embed decision diagrams, a popular constraint reasoning tool, as a fully differentiable module into deep learning models.
-- In data-driven operational research and program synthesis from the natural language, the structures generated with CORE satisfy 100% of the constraints when using exact decision diagrams. In addition, CORE boosts learning performance by reducing the modeling space via constraint satisfaction.
-CORE also generates designs that satisfy complex user specifications as well as meet aesthetics, utility, and convenience requirements.
+- By embedding AR solvers as differentiable layers into neural network-based ML models, my work ensures constraint satisfaction of the predicted output when solving a variety of structural learning problems across operations research, combinatorial optimization, and natural language processing. 
+- Notably, in a data-driven vehicle dispatching task, our approach generates routes that $100%$ satisfy constraints while previous approaches produce $\le 1%$ valid routes.
 
 
 ---
