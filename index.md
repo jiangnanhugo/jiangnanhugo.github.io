@@ -60,7 +60,7 @@ I am fortunate to be supervised by Professor [Yexiang Xue](https://www.cs.purdue
 ### Reasoning + Learning to ensure constraint satisfaction in machine learning 
 
 - By embedding AR solvers as differentiable layers into neural network-based ML models, my work ensures constraint satisfaction of the predicted output when solving a variety of structural learning problems across operations research, combinatorial optimization, and natural language processing. 
-- Notably, in a data-driven vehicle dispatching task, our approach generates routes that $100%$ satisfy constraints while previous approaches produce $\le 1%$ valid routes.
+- Notably, in a data-driven vehicle dispatching task, our approach generates routes that 100% satisfy constraints while previous approaches produce <1% valid routes.
 
 
 ---
