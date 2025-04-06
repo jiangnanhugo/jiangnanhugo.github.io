@@ -69,21 +69,23 @@ I am fortunate to be supervised by Professor [Yexiang Xue](https://www.cs.purdue
 ### 2025
 
 1. [Active Symbolic Discovery of Ordinary Differential Equations via Phase Portrait Sketching](https://arxiv.org/pdf/2409.01416).\\
-**Nan Jiang**, Md Nasim, Yexiang Xue.\\
-AAAI 2025.\\
-[(poster)](/static/aaai24_poster.pdf) [(code)](https://github.com/jiangnanhugo/APPS-ODE/) 
+    **Nan Jiang**, Md Nasim, Yexiang Xue.\\
+    AAAI 2025.\\
+    [(poster)](/static/aaai24_poster.pdf) [(code)](https://github.com/jiangnanhugo/APPS-ODE/) 
+
+1. PhD Thesis:  [PhD Thesis, Nan Jiang.pdf](/static/PhD Thesis, Nan Jiang.pdf) 
 
 1. [An Exact Solver for Satisfiability Modulo Counting with Probabilistic Circuits.](https://arxiv.org/pdf/2503.01009) \\
-Jinzhao Li, **Nan Jiang**, Yexiang Xue.\\
-Arxiv.
+    Jinzhao Li, **Nan Jiang**, Yexiang Xue.\\
+    Arxiv.
 
 1. Neuro-Symbolic Action Anticipation from a Single Image with Learned Probabilistic Rules. \\
-Muyang Yan, Maxwell J. Jacobson, **Nan Jiang**, Yaqi Xie, Simon Stepputtis, Katia Sycara, Yexiang Xue.\\
-Under Review.
+    Muyang Yan, Maxwell J. Jacobson, **Nan Jiang**, Yaqi Xie, Simon Stepputtis, Katia Sycara, Yexiang Xue.\\
+    Under Review.
 
 1. [Enhancing Deep Symbolic Regression with Expression Rewriting Module.](https://openreview.net/pdf?id=2CQa1VgO52) \\
-**Nan Jiang**, Ziyi Wang, Yexiang Xue.\\
-Under Review.
+    **Nan Jiang**, Ziyi Wang, Yexiang Xue.\\
+    Under Review.
 
 
 ### 2024
