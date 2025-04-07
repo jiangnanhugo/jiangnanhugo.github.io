@@ -73,7 +73,7 @@ I am fortunate to be supervised by Professor [Yexiang Xue](https://www.cs.purdue
     AAAI 2025.\\
     [(poster)](/static/aaai24_poster.pdf) [(code)](https://github.com/jiangnanhugo/APPS-ODE/) 
 
-1. PhD Thesis:  [PhD Thesis, Nan Jiang.pdf](/static/PhD Thesis, Nan Jiang.pdf) 
+1. PhD Thesis:  [Integrating Automated Reasoning with Machine Learning for Structured Prediction and Scientific Discovery](/static/PhD Thesis, Nan Jiang.pdf) 
 
 1. [An Exact Solver for Satisfiability Modulo Counting with Probabilistic Circuits.](https://arxiv.org/pdf/2503.01009) \\
     Jinzhao Li, **Nan Jiang**, Yexiang Xue.\\
